@@ -1,0 +1,7 @@
+Last update: August 8, 2015
+Languages: HTML, SCSS, Javascript
+Software: Sublime Text
+
+Design and code by Sam V Lu.
+Runs on Foundation 5 by ZURB
+email: samvlu@icloud.com
