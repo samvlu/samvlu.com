@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="22px" height="32px" viewBox="0 0 22 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.4 (17249) - http://www.bohemiancoding.com/sketch -->
+    <title>arrow-next</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.56 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Lightbox" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="lightbox-2" sketch:type="MSArtboardGroup" transform="translate(-1078.000000, -2389.000000)" filter="url(#filter-1)" fill="#FFFFFF" opacity="0.6">
+            <path d="M1082.60181,2406.29022 C1081.80294,2405.52324 1081.79586,2404.28652 1082.60181,2403.51273 L1092.98886,2393.54022 C1093.78773,2392.77324 1095.01218,2392.8281 1095.73161,2393.67196 L1095.85907,2393.82147 C1096.57498,2394.66121 1096.49476,2395.93995 1095.67589,2396.68123 L1086.59534,2404.90148 L1095.67589,2413.12173 C1096.49297,2413.86139 1096.57849,2415.13762 1095.85907,2415.98149 L1095.73161,2416.13099 C1095.0157,2416.97073 1093.79481,2417.03652 1092.98886,2416.26273 L1082.60181,2406.29022 Z" id="arrow-next" sketch:type="MSShapeGroup" transform="translate(1089.174033, 2404.902101) scale(-1, 1) translate(-1089.174033, -2404.902101) "></path>
+        </g>
+    </g>
+</svg>
