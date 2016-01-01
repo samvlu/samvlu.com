@@ -1,3 +1,2 @@
 User-agent: *
-Disallow: /test/
-Disallow: /preview/
+Disallow: /previews/
