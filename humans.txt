@@ -1,7 +1,9 @@
-Last update: August 8, 2015
-Languages: HTML, SCSS, Javascript
-Software: Sublime Text
 
-Design and code by Sam V Lu.
-Runs on Foundation 5 by ZURB
+Hello
+
+Site Design & Code: Sam Lu
 email: samvlu@icloud.com
+
+Last update: January 4, 2016
+Languages: HTML, CSS, Sass, Javascript
+Software: Sublime Text
