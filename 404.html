@@ -1,1000 +1,975 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="utf-8">
-	<title>100 Days of Swift - samvlu.com</title>
-	<meta name="description" content="I started learning swift and kept going for 100 days. Each day, I tried to build something from what I learned.">
-	<meta name="author" content="Sam Lu">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<!-- <link href='https://fonts.googleapis.com/css?family=Work+Sans:400,500,600,300,200' rel='stylesheet' type='text/css'> -->
-	<!-- build:css css/base.css -->
-	<link rel="stylesheet" href="css/googlefont-work-sans.css">
-	<link rel="stylesheet" href="css/normalize.css">
-	<link rel="stylesheet" href="css/skeleton.css">
-	<!-- endbuild -->
-	<!-- build:css css/lightbox.css -->
-	<link rel="stylesheet" href="css/photoswipe.css">
-	<!-- endbuild -->
-	<!-- build:css css/code.css -->
-	<link rel="stylesheet" href="css/dark-skin.css">
-	<link rel="stylesheet" href="css/code.css">
-	<!-- endbuild -->
-	<link rel="icon" type="image/png" href="images/favicon.png">
+<meta charset="utf-8">
+<title>100 Days of Swift - samvlu.com</title>
+<meta name="description" content="I started learning swift and kept going for 100 days. Each day, I tried to build something from what I learned.">
+<meta name="author" content="Sam Lu">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+
+<link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/lightbox.css">
+<link rel="stylesheet" href="css/code.css">
+<link rel="icon" type="image/png" href="images/favicon.png">
 </head>
 <body>
-	<!-- ——————————————————————— Intro ——————————————————————— -->
-	<nav class="mobile-nav">
-		<ul>
-			<li><a class="active" href="#">Code</a></li>
-			<li><a href="graphics.html">Graphics</a></li>
-			<li><a href="tutorials.html">Tutorials</a></li>
-			<li><a href="about.html">About</a></li>
-			<li><a href="contact.html">Contact</a></li>
-		</ul>
-	</nav>
-	<div class="intro">
-		<a id="mobile-menu-btn" href="#">Menu</a>
-		<nav class="navbar">
-			<div class="container">
-				<ul>
-					<li><a class="active" href="#">Code</a></li>
-					<li><a href="graphics.html">Graphics</a></li>
-					<li><a href="tutorials.html">Tutorials</a></li>
-					<li><a href="about.html">About</a></li>
-					<li><a href="contact.html">Contact</a></li>
-				</ul>
-			</div>
-		</nav>
-		<div class="hero">
-			<div class="container">
-				<div class="hero-image">
-					<svg viewBox="0 0 220 194" xmlns="http://www.w3.org/2000/svg"><path d="M134.993-.114C228.068 60.266 199.61 136.2 199.61 136.2s10.037 11.435 15.056 25.615c5.018 14.18 4.963 31.562 4.05 32.02-.912.457-12.677-19.67-33.25-19.67s-31.025 19.67-67.525 19.67C35.758 193.835.115 126.25.115 126.25s36.158 25.96 74.027 25.044c37.87-.915 48.363-11.893 48.363-11.893s-16.932-14.204-46.08-42.77c-29.15-28.563-56.576-67.926-56.576-67.926s43.94 34.914 58.034 45.184c14.095 10.27 28.19 19.578 28.19 19.578s-13.65-14.763-23.26-26.64C73.2 54.953 48.59 19.1 48.59 19.1s37.744 34.164 54.916 47.73c17.172 13.565 50.022 36.436 50.022 36.436S173.318 57.98 134.993-.114z" fill="#FF492B" fill-rule="evenodd"/></svg>
-				</div>
-				<h1>100 Days of Swif<span>t</span></h1>
-				<p class="subtitle">I started learning swift and kept going for 100 days. Each day, I tried to build something from what I learned. Most projects took a few days to complete. Below is my progression from day one to a hundred in the form of completed projects. A total of 40 projects.</p>
-				<p class="read-more">Read more about this on&nbsp;<a href="https://medium.com/@samvlu/100-days-of-swift-736d45a19b63#.ujf6i9mpo" target="_blank">Medium</a></p>
-			</div>
-		</div>
-		<a href="#projects" id="arrow">
-			<div class="arrow">
-				<svg viewBox="0 0 34 18" xmlns="http://www.w3.org/2000/svg"><path d="M16.75 17L0 2.72 3.19 0l13.56 11.56L30.31 0l3.19 2.72L16.75 17z" fill="#FF492B" fill-rule="evenodd"/></svg>
-			</div>
-		</a>
-	</div>
 
-<!-- ——————————————————————— Projects ——————————————————————— -->
-	<div class="projects" id="projects">
-		<div class="container">
-			<article class="row small">
-				<div class="twelve columns">
-					<h2>Project 40 - Stretchy Header</h2>
-					<span class="date">November 12, 2015</span>
-					<div class="demo">
-						<a href="images/2015-11-12-nest-stretchy-header.gif" data-size="428x738" data-index="0" data-title="Project 40 - Stretchy Header">
-							<img src="images/2015-11-12-nest-stretchy-header.gif" alt="">
-						</a>
-					</div>
-					<div class="project-description">
-						<p>I learned how to:</p>
-						<ul>
-							<li>Build custom transparent navigation bar</li>
-							<li>Implement a Collection View in a Table View Controller</li>
-							<li>Create a stretchy header based of the user's pull</li>
-						</ul>
-						<p class="tools">Tools: <a href="https://developer.apple.com/xcode/" target="_blank">Xcode 7</a>, <a href="https://developer.apple.com/swift/" target="_blank">Swift 2.1</a>, <a href="https://developer.apple.com/library/ios/navigation/#section=Frameworks&amp;topic=UIKit" target="_blank">UIKit</a>, <a href="https://www.sketchapp.com" target="_blank">Sketch</a></p>
-					</div>
-				</div>
-			</article>
-			<article class="row small">
-				<div class="twelve columns">
-					<h2>Project 39 - Embedded Collection View</h2>
-					<span class="date">November 11, 2015</span>
-					<div class="demo">
-						<a href="images/2015-11-11-nest-embedded-collection-view.gif" data-size="428x738" data-index="1" data-title="Project 39 - Embedded Collection View">
-							<img src="images/2015-11-11-nest-embedded-collection-view.gif" alt="">
-						</a>
-					</div>
-					<div class="project-description">
-						<p>I learned how to:</p>
-						<ul>
-							<li>Build custom transparent navigation bar</li>
-							<li>Implement a Collection View in a Table View Controller</li>
-							<li>Populate embedded Collection View with data from a dictionary</li>
-						</ul>
-						<p class="tools">Tools: <a href="https://developer.apple.com/xcode/" target="_blank">Xcode 7</a>, <a href="https://developer.apple.com/swift/" target="_blank">Swift 2.1</a>, <a href="https://developer.apple.com/library/ios/navigation/#section=Frameworks&amp;topic=UIKit" target="_blank">UIKit</a>, <a href="https://www.sketchapp.com" target="_blank">Sketch</a></p>
-					</div>
-				</div>
-			</article>
-			<article class="row small">
-				<div class="twelve columns">
-					<h2>Project 38 - Interactive Transitions</h2>
-					<span class="date">November 9, 2015</span>
-					<div class="demo">
-						<a href="images/2015-11-09-custom-interactive-transitions.gif" data-size="428x738" data-index="2" data-title="Project 38 - Interactive Transitions">
-							<img src="images/2015-11-09-custom-interactive-transitions.gif" alt="">
-						</a>
-					</div>
-					<div class="project-description">
-						<p>I learned how to:</p>
-						<ul>
-							<li>Implement Percent Driven Interactive Transition with a Custom Transition</li>
-							<li>Use Edge Pan Gesture to trigger Interactive Transition</li>
-						</ul>
-						<p class="tools">Tools: <a href="https://developer.apple.com/xcode/" target="_blank">Xcode 7</a>, <a href="https://developer.apple.com/swift/" target="_blank">Swift 2.1</a>, <a href="https://developer.apple.com/library/ios/navigation/#section=Frameworks&amp;topic=UIKit" target="_blank">UIKit</a>, <a href="https://www.sketchapp.com" target="_blank">Sketch</a></p>
-						<p class="meta">&#42; Artwork by <a href="http://www.zestydoesthings.com" target="_blank">Zesty Does Things</a></p>
-					</div>
-				</div>
-			</article>
-			<article class="row small">
-				<div class="twelve columns">
-					<h2>Project 37 - Custom Transitions</h2>
-					<span class="date">November 6, 2015</span>
-					<div class="demo">
-						<a href="images/2015-11-05-pokemon-custom-transitions.gif" data-size="428x738" data-index="3" data-title="Project 37 - Custom Transitions">
-							<img src="images/2015-11-05-pokemon-custom-transitions.gif" alt="">
-						</a>
-					</div>
-					<div class="project-description">
-						<p>I learned how to:</p>
-						<ul>
-							<li>Create custom transitions with Apple's Transition API</li>
-							<li>Write protocols to pass data between views</li>
-							<li>Build a Navigation Controller Delegate to use custom transitions</li>
-							<li>Use custom transitions with a Collection View</li>
-							<li>Instantiate View Controllers programmatically</li>
-						</ul>
-						<p class="tools">Tools: <a href="https://developer.apple.com/xcode/" target="_blank">Xcode 7</a>, <a href="https://developer.apple.com/swift/" target="_blank">Swift 2.1</a>, <a href="https://developer.apple.com/library/ios/navigation/#section=Frameworks&amp;topic=UIKit" target="_blank">UIKit</a>, <a href="https://www.sketchapp.com" target="_blank">Sketch</a></p>
-						<p class="meta">&#42; Artwork by <a href="http://www.zestydoesthings.com" target="_blank">Zesty Does Things</a></p>
-					</div>
-				</div>
-			</article>
-			<article class="row small">
-				<div class="twelve columns">
-					<h2>Project 36 - Core Animation &amp; Masks 2</h2>
-					<span class="date">October 29, 2015</span>
-					<div class="demo">
-						<a href="images/2015-10-27_twitter_launch_animation.gif" data-size="430x740" data-index="4" data-title="Project 36 - Core Animation &amp; Masks 2">
-							<img src="images/2015-10-27_twitter_launch_animation.gif" alt="">
-						</a>
-					</div>
-					<div class="project-description">
-						<p>I learned how to:</p>
-						<ul>
-							<li>Create complex animations with Core Animation</li>
-							<li>Build and use masks with Core Animation</li>
-							<li>Build efficient hierarchy for multiple animations</li>
-							<li>Animate the status bar with a fade in</li>
-						</ul>
-						<p class="tools">Tools: <a href="https://developer.apple.com/xcode/" target="_blank">Xcode 7</a>, <a href="https://developer.apple.com/swift/" target="_blank">Swift 2.1</a>, <a href="https://developer.apple.com/library/ios/navigation/#section=Frameworks&amp;topic=UIKit" target="_blank">UIKit</a>, <a href="https://www.sketchapp.com" target="_blank">Sketch</a></p>
-						<p class="meta">&#42; This is a recreation of <a href="https://itunes.apple.com/us/app/twitter/id333903271?mt=8" target="_blank">Twitter's iOS App Launch Screen</a></p>
-					</div>
-				</div>
-			</article>
-			<article class="row small">
-				<div class="twelve columns">
-					<h2>Project 35 - Core Animation &amp; Masks 1</h2>
-					<span class="date">October 27, 2015</span>
-					<div class="demo">
-						<a href="images/2015-10-29-google-mic-animations.gif" data-size="430x740" data-index="5" data-title="Project 35 - Core Animation &amp; Masks 1">
-							<img src="images/2015-10-29-google-mic-animations.gif" alt="">
-						</a>
-					</div>
-					<div class="project-description">
-						<p>I learned how to:</p>
-						<ul>
-							<li>Use Custom Fonts</li>
-							<li>Create complex animations with Core &amp; Spring Animation</li>
-							<li>Build and use masks with Core Animation</li>
-							<li>Build efficient hierarchy for multiple animations</li>
-							<li>Layer animations</li>
-						</ul>
-						<p class="tools">Tools: <a href="https://developer.apple.com/xcode/" target="_blank">Xcode 7</a>, <a href="https://developer.apple.com/swift/" target="_blank">Swift 2.1</a>, <a href="https://developer.apple.com/library/ios/navigation/#section=Frameworks&amp;topic=UIKit" target="_blank">UIKit</a>, <a href="https://www.sketchapp.com" target="_blank">Sketch</a></p>
-						<p class="meta">&#42; This is a recreation of <a href="https://itunes.apple.com/us/app/google-app-search-made-just/id284815942?mt=8" target="_blank">Google's iOS App</a> Mic Animation</p>
-					</div>
-				</div>
-			</article>
-			<article class="row small">
-				<div class="twelve columns">
-					<h2>Project 34 - Spring Animations</h2>
-					<span class="date">October 24, 2015</span>
-					<div class="demo">
-						<a href="images/2015-10-24-spring-animations.gif" data-size="428x740" data-index="6" data-title="Project 34 - Spring Animations">
-							<img src="images/2015-10-24-spring-animations.gif" alt="">
-						</a>
-					</div>
-					<div class="project-description">
-						<p>I learned how to:</p>
-						<ul>
-							<li>Use multiple Spring Animations along with Autolayout</li>
-							<li>Create seamless animation from launch screen to view controller</li>
-						</ul>
-						<p class="tools">Tools: <a href="https://developer.apple.com/xcode/" target="_blank">Xcode 7</a>, <a href="https://developer.apple.com/swift/" target="_blank">Swift 2.1</a>, <a href="https://developer.apple.com/library/ios/navigation/#section=Frameworks&amp;topic=UIKit" target="_blank">UIKit</a>, <a href="https://www.sketchapp.com" target="_blank">Sketch</a></p>
-						<p class="meta">&#42; This is a recreation of <a href="https://itunes.apple.com/us/app/google-app-search-made-just/id284815942?mt=8" target="_blank">Google's iOS App</a> Launch Screen Animation</p>
-					</div>
-				</div>
-			</article>
-			<article class="row small">
-				<div class="twelve columns">
-					<h2>Project 33 - Custom Swipe Transitions</h2>
-					<span class="date">October 22, 2015</span>
-					<div class="demo">
-						<a href="images/2015-10-22-custom-transitions-with-swipe-gestures.gif" data-size="428x738" data-index="7" data-title="Project 33 - Custom Swipe Transitions">
-							<img src="images/2015-10-22-custom-transitions-with-swipe-gestures.gif" alt="">
-						</a>
-					</div>
-					<div class="project-description">
-						<p>I learned how to:</p>
-						<ul>
-							<li>Perform Custom Segues with Swipe Gesture Recognizers</li>
-							<li>Unwind Segues</li>
-							<li>Animate Custom View Transitions</li>
-							<li>Implement Custom Segues Progammatically</li>
-						</ul>
-						<p class="tools">Tools: <a href="https://developer.apple.com/xcode/" target="_blank">Xcode 7</a>, <a href="https://developer.apple.com/swift/" target="_blank">Swift 2.1</a>, <a href="https://developer.apple.com/library/ios/navigation/#section=Frameworks&amp;topic=UIKit" target="_blank">UIKit</a></p>
-					</div>
-				</div>
-			</article>
-			<article class="row small">
-				<div class="twelve columns">
-					<h2>Project 32 - Basic Animation</h2>
-					<span class="date">October 20, 2015</span>
-					<div class="demo">
-						<a href="images/2015-10-20-core-animation-basics.gif" data-size="428x738" data-index="8" data-title="Project 32 - Basic Animation">
-							<img src="images/2015-10-20-core-animation-basics.gif" alt="">
-						</a>
-					</div>
-					<div class="project-description">
-						<p>I learned how to:</p>
-						<ul>
-							<li>Implement ImagesViews programmatically</li>
-							<li>Create UIView Animations</li>
-						</ul>
-						<p class="tools">Tools: <a href="https://developer.apple.com/xcode/" target="_blank">Xcode 7</a>, <a href="https://developer.apple.com/swift/" target="_blank">Swift 2.1</a>, <a href="https://developer.apple.com/library/ios/navigation/#section=Frameworks&amp;topic=UIKit" target="_blank">UIKit</a>, <a href="https://www.sketchapp.com" target="_blank">Sketch</a></p>
-					</div>
-				</div>
-			</article>
-			<article class="row small">
-				<div class="twelve columns">
-					<h2>Project 31 - Custom Search Results</h2>
-					<span class="date">October 12, 2015</span>
-					<div class="demo">
-						<a href="images/2015-10-12-custom-search-results.gif" data-size="428x738" data-index="9" data-title="Project 31 - Custom Search Results">
-							<img src="images/2015-10-12-custom-search-results.gif" alt="">
-						</a>
-					</div>
-					<div class="project-description">
-						<p>I learned how to:</p>
-						<ul>
-							<li>create custom Search Bar</li>
-							<li>build custom Search Results View</li>
-							<li>overlay Search Results over current content</li>
-							<li>create and dismiss Blur View</li>
-							<li>implement Search Controller</li>
-							<li>search and retrieve data from a dictionary</li>
-						</ul>
-						<p class="tools">Tools: <a href="https://developer.apple.com/xcode/" target="_blank">Xcode 7</a>, <a href="https://developer.apple.com/swift/" target="_blank">Swift 2.1</a>, <a href="https://developer.apple.com/library/ios/navigation/#section=Frameworks&amp;topic=UIKit" target="_blank">UIKit</a></p>
-						<p class="meta">&#42; Design inspired by <a href="https://itunes.apple.com/us/app/itunes-movie-trailers/id471966214?mt=8" target="_blank">Apple's iOS Trailers App</a></p>
-					</div>
-				</div>
-			</article>
-			<article class="row small">
-				<div class="twelve columns">
-					<h2>Project 30 - Segmented Control Views</h2>
-					<span class="date">October 1, 2015</span>
-					<div class="demo">
-						<a href="images/2015-10-01-segmented-control.gif" data-size="428x738" data-index="10" data-title="Project 30 - Segmented Control Views">
-							<img src="images/2015-10-01-segmented-control.gif" alt="">
-						</a>
-					</div>
-					<div class="project-description">
-						<p>I learned how to:</p>
-						<ul>
-							<li>Use Segmented Control to Toggle Views</li>
-							<li>Customize Navigation Bar with Segmented Control</li>
-							<li>Work with Segmented Control and Collection &amp; Table Views</li>
-						</ul>
-						<p class="tools">Tools: <a href="https://developer.apple.com/xcode/" target="_blank">Xcode 7</a>, <a href="https://developer.apple.com/swift/" target="_blank">Swift 2.1</a>, <a href="https://developer.apple.com/library/ios/navigation/#section=Frameworks&amp;topic=UIKit" target="_blank">UIKit</a></p>
-						<p class="meta">&#42; Design inspired by <a href="https://itunes.apple.com/us/app/itunes-movie-trailers/id471966214?mt=8" target="_blank">Apple's iOS Trailers App</a></p>
-					</div>
-				</div>
-			</article>
-			<article class="row small">
-				<div class="twelve columns">
-					<h2>Project 29 - Mutiple Collection Views</h2>
-					<span class="date">October 1, 2015</span>
-					<div class="demo">
-						<a href="images/2015-10-01-mutliple-collection-views.gif" data-size="428x738" data-index="11" data-title="Project 29 - Mutiple Collection Views">
-							<img src="images/2015-10-01-mutliple-collection-views.gif" alt="">
-						</a>
-					</div>
-					<div class="project-description">
-						<p>I learned how to:</p>
-						<ul>
-							<li>Work with Multiple Collection Views</li>
-							<li>Implement Cross-Directional Scroll Views</li>
-							<li>Use Local Data Model for Multiple Collection Views</li>
-							<li>Customize Collection View Cells</li>
-						</ul>
-						<p class="tools">Tools: <a href="https://developer.apple.com/xcode/" target="_blank">Xcode 7</a>, <a href="https://developer.apple.com/swift/" target="_blank">Swift 2.1</a>, <a href="https://developer.apple.com/library/ios/navigation/#section=Frameworks&amp;topic=UIKit" target="_blank">UIKit</a></p>
-						<p class="meta">&#42; Design inspired by <a href="https://itunes.apple.com/us/app/itunes-movie-trailers/id471966214?mt=8" target="_blank">Apple's iOS Trailers App</a></p>
-					</div>
-				</div>
-			</article>
-			<article class="row small">
-				<div class="twelve columns">
-					<h2>Project 28 - Image Carousel</h2>
-					<span class="date">September 30, 2015</span>
-					<div class="demo">
-						<a href="images/2015-09-30-image-carousel.gif" data-size="428x738" data-index="12" data-title="Project 28 - Image Carousel">
-							<img src="images/2015-09-30-image-carousel.gif" alt="">
-						</a>
-					</div>
-					<div class="project-description">
-						<p>I learned how to:</p>
-						<ul>
-							<li>Use UI Collection View for Page Scrolling</li>
-							<li>Populate Collection View with local data</li>
-							<li>Customize Collection View Cell</li>
-							<li>Implement 2 Different Views in a Table View</li>
-						</ul>
-						<p class="tools">Tools: <a href="https://developer.apple.com/xcode/" target="_blank">Xcode 7</a>, <a href="https://developer.apple.com/swift/" target="_blank">Swift 2.1</a>, <a href="https://developer.apple.com/library/ios/navigation/#section=Frameworks&amp;topic=UIKit" target="_blank">UIKit</a></p>
-						<p class="meta">&#42; Design inspired by <a href="https://itunes.apple.com/us/app/itunes-movie-trailers/id471966214?mt=8" target="_blank">Apple's iOS Trailers App</a></p>
-					</div>
-				</div>
-			</article>
-			<article class="row small">
-				<div class="twelve columns">
-					<h2>Project 27 - Search Bar in Table View</h2>
-					<span class="date">September 28, 2015</span>
-					<div class="demo">
-						<a href="images/2015-09-28-search.gif" data-size="428x738" data-index="13" data-title="Project 27 - Search Bar in Table View">
-							<img src="images/2015-09-28-search.gif" alt="">
-						</a>
-					</div>
-					<div class="project-description">
-						<p>I learned how to:</p>
-						<ul>
-							<li>Use UISearchController with a Table View</li>
-							<li>Display Search Results</li>
-						</ul>
-						<p class="tools">Tools: <a href="https://developer.apple.com/xcode/" target="_blank">Xcode 7</a>, <a href="https://developer.apple.com/swift/" target="_blank">Swift 2.1</a>, <a href="https://developer.apple.com/library/ios/navigation/#section=Frameworks&amp;topic=UIKit" target="_blank">UIKit</a></p>
-					</div>
-				</div>
-			</article>
-			<article class="row small">
-				<div class="twelve columns">
-					<h2>Project 26 - Action Sheet</h2>
-					<span class="date">September 26, 2015</span>
-					<div class="demo">
-						<a href="images/2015-09-26-action-sheet3.gif" data-size="430x740" data-index="14" data-title="Project 26 - Action Sheet">
-							<img src="images/2015-09-26-action-sheet3.gif" alt="">
-						</a>
-					</div>
-					<div class="project-description">
-						<p>I learned how to:</p>
-						<ul>
-							<li>Work with UIAlertController</li>
-							<li>Create and add Actions to Alert Controller</li>
-							<li>Build Action Handlers</li>
-						</ul>
-						<p class="tools">Tools: <a href="https://developer.apple.com/xcode/" target="_blank">Xcode 7</a>, <a href="https://developer.apple.com/swift/" target="_blank">Swift 2.1</a>, <a href="https://developer.apple.com/library/ios/navigation/#section=Frameworks&amp;topic=UIKit" target="_blank">UIKit</a></p>
-					</div>
-				</div>
-			</article>
-			<article class="row small">
-				<div class="twelve columns">
-					<h2>Project 25 - Scroll Views</h2>
-					<span class="date">September 25, 2015</span>
-					<div class="demo">
-						<a href="images/2015-09-25-custom-view.gif" data-size="428x738" data-index="15" data-title="Project 25 - Scroll Views">
-							<img src="images/2015-09-25-custom-view.gif" alt="">
-						</a>
-					</div>
-					<div class="project-description">
-						<p>I learned how to:</p>
-						<ul>
-							<li>Implement a Scroll View that expands if content is off screen</li>
-							<li>Use Dynamic Data with Collection View and Scroll View</li>
-							<li>Build custom Navigation Bar</li>
-							<li>Customize Back Button</li>
-							<li>Retrieve Data from Local Database</li>
-						</ul>
-						<p class="tools">Tools: <a href="https://developer.apple.com/xcode/" target="_blank">Xcode 7</a>, <a href="https://developer.apple.com/swift/" target="_blank">Swift 2.1</a>, <a href="https://developer.apple.com/library/ios/navigation/#section=Frameworks&amp;topic=UIKit" target="_blank">UIKit</a></p>
-					</div>
-				</div>
-			</article>
-			<article class="row small">
-				<div class="twelve columns">
-					<h2>Project 24 - Custom Collection View</h2>
-					<span class="date">September 23, 2015</span>
-					<div class="demo">
-						<a href="images/2015-09-23-uicollection-view.gif" data-size="428x738" data-index="16" data-title="Project 24 - Custom Collection View">
-							<img src="images/2015-09-23-uicollection-view.gif" alt="">
-						</a>
-					</div>
-					<div class="project-description">
-						<p>I learned how to:</p>
-						<ul>
-							<li>Build a custom Collection View</li>
-							<li>Load images into the Collection View</li>
-						</ul>
-						<p class="tools">Tools: <a href="https://developer.apple.com/xcode/" target="_blank">Xcode 7</a>, <a href="https://developer.apple.com/swift/" target="_blank">Swift 2.1</a>, <a href="https://developer.apple.com/library/ios/navigation/#section=Frameworks&amp;topic=UIKit" target="_blank">UIKit</a></p>
-					</div>
-				</div>
-			</article>
-			<article class="row small">
-				<div class="twelve columns">
-					<h2>Project 23 - Change Date And Time</h2>
-					<span class="date">September 19, 2015</span>
-					<div class="demo">
-						<a href="images/2015-09-19-change-date-and-time.gif" data-size="428x738" data-index="17" data-title="Project 23 - Change Date And Time">
-							<img src="images/2015-09-19-change-date-and-time.gif" alt="">
-						</a>
-					</div>
-					<div class="project-description">
-						<p>I learned how to:</p>
-						<ul>
-							<li>Pass data to back and forth between 2 views</li>
-							<li>Format date and time from UIPickers</li>
-							<li>Make UIPickers display previously selected Date and Time</li>
-							<li>Get and show today's Date and Time</li>
-						</ul>
-						<p class="tools">Tools: <a href="https://developer.apple.com/xcode/" target="_blank">Xcode 7</a>, <a href="https://developer.apple.com/swift/" target="_blank">Swift 2.0</a>, <a href="https://developer.apple.com/library/ios/navigation/#section=Frameworks&amp;topic=UIKit" target="_blank">UIKit</a></p>
-					</div>
-				</div>
-			</article>
-			<article class="row small">
-				<div class="twelve columns">
-					<h2>Project 22 - Setting The Date</h2>
-					<span class="date">September 16, 2015</span>
-					<div class="demo">
-						<a href="images/2015-09-16-UIDatePicker.gif" data-size="428x738" data-index="18" data-title="Project 22 - Setting The Date">
-							<img src="images/2015-09-16-UIDatePicker.gif" alt="">
-						</a>
-					</div>
-					<div class="project-description">
-						<p>I learned how to:</p>
-						<ul>
-							<li>Use UIDatePicker to get NSDate Information</li>
-							<li>Use NSDateFormatter to convert the date to a string</li>
-							<li>Set the View Title to the Date</li>
-						</ul>
-						<p class="tools">Tools: <a href="https://developer.apple.com/xcode/" target="_blank">Xcode 7</a>, <a href="https://developer.apple.com/swift/" target="_blank">Swift 2.0</a>, <a href="https://developer.apple.com/library/ios/navigation/#section=Frameworks&amp;topic=UIKit" target="_blank">UIKit</a></p>
-					</div>
-				</div>
-			</article>
-			<article class="row small">
-				<div class="twelve columns">
-					<h2>Project 21 - Set Location</h2>
-					<span class="date">September 16, 2015</span>
-					<div class="demo">
-						<a href="images/2015-09-16-set-location.gif" data-size="428x738" data-index="19" data-title="Project 21 - Set Location">
-							<img src="images/2015-09-16-set-location.gif" alt="">
-						</a>
-					</div>
-					<div class="project-description">
-						<p>I learned how to:</p>
-						<ul>
-							<li>Request permission to use Location Services</li>
-							<li>Set the location</li>
-							<li>Convert the user's position data (laditude / longitude) to street address style</li>
-							<li>Conserve battery with CLLocationManager</li>
-						</ul>
-						<p class="tools">Tools: <a href="https://developer.apple.com/xcode/" target="_blank">Xcode 7</a>, <a href="https://developer.apple.com/swift/" target="_blank">Swift 2.0</a>, <a href="https://developer.apple.com/library/ios/navigation/#section=Frameworks&amp;topic=UIKit" target="_blank">UIKit</a>, <a href="https://developer.apple.com/library/ios/navigation/#section=Frameworks&amp;topic=CoreLocation" target="_blank">CoreLocation</a></p>
-					</div>
-				</div>
-			</article>
-			<article class="row small">
-				<div class="twelve columns">
-					<h2>Project 20 - Save Date, Location &amp; Photo</h2>
-					<span class="date">September 15, 2015</span>
-					<div class="demo">
-						<a href="images/2015-09-15-saving-date-location-photo-text.gif" data-size="428x738" data-index="20" data-title="Project 20 - Save Date, Location &amp; Photo">
-							<img src="images/2015-09-15-saving-date-location-photo-text.gif" alt="">
-						</a>
-					</div>
-					<div class="project-description">
-						<p>I learned how to:</p>
-						<ul>
-							<li>Use Core Location to retrieve Location</li>
-							<li>Convert ImageData to Binary for saving to Core Data</li>
-							<li>Work with NSDate</li>
-							<li>Load Core Data info in Table View</li>
-							<li>Sort Table View by Date provided by Core Data</li>
-						</ul>
-						<p class="tools">Tools: <a href="https://www.sketchapp.com" target="_blank">Sketch</a>, <a href="https://developer.apple.com/xcode/" target="_blank">Xcode 7</a>, <a href="https://developer.apple.com/swift/" target="_blank">Swift 2.0</a>, <a href="https://developer.apple.com/library/ios/navigation/#section=Frameworks&amp;topic=UIKit" target="_blank">UIKit</a>, <a href="https://developer.apple.com/library/ios/navigation/#section=Frameworks&amp;topic=CoreData" target="_blank">CoreData</a>, <a href="https://developer.apple.com/library/ios/navigation/#section=Frameworks&amp;topic=CoreLocation" target="_blank">CoreLocation</a></p>
-					</div>
-				</div>
-			</article>
-			<article class="row small">
-				<div class="twelve columns">
-					<h2>Project 19 - Buttons Above Keyboard</h2>
-					<span class="date">September 13, 2015</span>
-					<div class="demo">
-						<a href="images/2015-09-13-buttons-above-keyboard.gif" data-size="428x738" data-index="21" data-title="Project 19 - Buttons Above Keyboard">
-							<img src="images/2015-09-13-buttons-above-keyboard.gif" alt="">
-						</a>
-					</div>
-					<div class="project-description">
-						<p>I learned how to:</p>
-						<ul>
-							<li>Create an Accessory Input View </li>
-							<li>Use constraints to align buttons</li>
-							<li>Use icons for UIButtons</li>
-						</ul>
-						<p class="tools">Tools: <a href="https://www.sketchapp.com" target="_blank">Sketch</a>, <a href="https://developer.apple.com/xcode/" target="_blank">Xcode 7</a>, <a href="https://developer.apple.com/swift/" target="_blank">Swift 2.0</a>, <a href="https://developer.apple.com/library/ios/navigation/#section=Frameworks&amp;topic=UIKit" target="_blank">UIKit</a></p>
-					</div>
-				</div>
-			</article>
-			<article class="row small">
-				<div class="twelve columns">
-					<h2>Project 18 - Dynamic Data For Each Cell</h2>
-					<span class="date">September 1, 2015</span>
-					<div class="demo">
-						<a href="images/2015-09-01-contacts-app-2.gif" data-size="428x738" data-index="22" data-title="Project 18 - Dynamic Data For Each Cell">
-							<img src="images/2015-09-01-contacts-app-2.gif" alt="">
-						</a>
-					</div>
-					<div class="project-description">
-						<p>Part 4 of Contacts App for iOS</p>
-						<ul>
-							<li>Change the color of the Navigation Bar, Status Bar and Navigation Buttons</li>
-							<li>Use Dictionaries to dynamically fill tables with text and images</li>
-							<li>Transfer data from the currently selected row to the next View</li>
-						</ul>
-						<p class="tools">Tools: <a href="https://www.sketchapp.com" target="_blank">Sketch</a>, <a href="https://developer.apple.com/xcode/" target="_blank">Xcode 7</a>, <a href="https://developer.apple.com/swift/" target="_blank">Swift 2.0</a>, <a href="https://developer.apple.com/library/ios/navigation/#section=Frameworks&amp;topic=UIKit" target="_blank">UIKit</a></p>
-					</div>
-				</div>
-			</article>
-			<article class="row large">
-				<div class="twelve columns">
-					<div class="small">
-						<h2>Project 17 - The Model and Controllers</h2>
-						<span class="date">August 30, 2015</span>
-					</div>
-					<div class="demo">
-						<a href="images/2015-08-30-xcode-code-4-hd.png" data-size="1038x1049" data-index="23" data-title="Project 17 - The Model and Controllers">
-							<img src="images/2015-08-30-xcode-code-4.png" alt="">
-						</a>
-					</div>
-					<div class="small">
-						<div class="project-description">
-							<p>Part 3 of Contacts App for iOS</p>
-							<p>I learned how to:</p>
-							<ul>
-								<li>Store and access data in Dictionaries</li>
-								<li>Create Section Headers and Rows in Tables</li>
-								<li>Work with multiple View controllers</li>
-							</ul>
-							<p class="tools">Tools: <a href="https://developer.apple.com/xcode/" target="_blank">Xcode 7</a>, <a href="https://developer.apple.com/swift/" target="_blank">Swift 2.0</a>, <a href="https://developer.apple.com/library/ios/navigation/#section=Frameworks&amp;topic=UIKit" target="_blank">UIKit</a></p>
-						</div>
-					</div>
-				</div>
-			</article>
-			<article class="row large">
-				<div class="twelve columns">
-					<div class="small">
-						<h2>Project 16 - Building The User Interface</h2>
-						<span class="date">August 27, 2015</span>
-					</div>
-					<div class="demo">
-						<a href="images/2015-08-27-xcode-storyboard-8-hd.png" data-size="816x2152" data-index="24" data-title="Project 16 - Building The User Interface">
-							<img src="images/2015-08-27-xcode-storyboard-8.png" alt="">
-						</a>
-					</div>
-					<div class="small">
-						<div class="project-description">
-							<p>Part 2 of Contacts App for iOS</p>
-							<p>I learned how to:</p>
-							<ul>
-								<li>Use Navigation, Table View and View Controllers</li>
-								<li>Use Auto Layout for creating Universal Apps</li>
-								<li>Connect Views with Segues</li>
-								<li>Work with ImageViews, Labels</li>
-								<li>Customize Table Sections, Rows, Cells and Separators</li>
-							</ul>
-							<p class="tools">Tools: <a href="https://developer.apple.com/xcode/" target="_blank">Xcode 7</a></p>
-						</div>
-					</div>
-				</div>
-			</article>
-			<article class="row large">
-				<div class="twelve columns">
-					<div class="small">
-						<h2>Project 15 - From <a href="https://www.sketchapp.com" target="_blank">Sketch</a> to Xcode</h2>
-						<span class="date">August 26, 2015</span>
-					</div>
-					<div class="demo">
-						<a href="images/2015-08-26-contacts-app-showcase-11.png" data-size="924x757" data-index="25" data-title="Project 15 - From Sketch to Xcode">
-							<img src="images/2015-08-26-contacts-app-showcase-11.png" alt="">
-						</a>
-					</div>
-					<div class="small">
-						<div class="project-description">
-							<p>Part 1 of Contacts App for iOS</p>
-							<p>I learned how to:</p>
-							<ul>
-								<li>Design Custom Table Sections and Rows</li>
-								<li>Mentally apply Auto Layout</li>
-								<li>Design For Retina screens</li>
-								<li>Efficiently export assets for Xcode</li>
-							</ul>
-							<p class="tools">Tools: <a href="https://www.sketchapp.com" target="_blank">Sketch</a></p>
-						</div>
-					</div>
-				</div>
-			</article>
-			<article class="row small">
-				<div class="twelve columns">
-					<h2>Project 14 - Jumpbar</h2>
-					<span class="date">August 20, 2015</span>
-					<div class="demo">
-						<a href="images/2015-08-20-jumpbar.gif" data-size="428x738" data-index="26" data-title="Project 14 - Jumpbar">
-							<img src="images/2015-08-20-jumpbar.gif" alt="">
-						</a>
-					</div>
-					<div class="project-description">
-						<p>I learned how to:</p>
-						<ul>
-							<li>Sort an Array in alphabetical order</li>
-							<li>Create an Indexed Table View</li>
-						</ul>
-						<p class="tools">Tools: <a href="https://developer.apple.com/xcode/" target="_blank">Xcode 7</a>, <a href="https://developer.apple.com/swift/" target="_blank">Swift 2.0</a>, <a href="https://developer.apple.com/library/ios/navigation/#section=Frameworks&amp;topic=UIKit" target="_blank">UIKit</a></p>
-					</div>
-				</div>
-			</article>
-			<article class="row small">
-				<div class="twelve columns">
-					<h2>Project 13 - Sticky Section Headers</h2>
-					<span class="date">August 19, 2015</span>
-					<div class="demo">
-						<a href="images/2015-08-19-sticky-section-headers.gif" data-size="428x738" data-index="27" data-title="Project 13 - Sticky Section Headers">
-							<img src="images/2015-08-19-sticky-section-headers.gif" alt="">
-						</a>
-					</div>
-					<div class="project-description">
-						<p>I learned how to:</p>
-						<ul>
-							<li>Store and access data in a Dictionary</li>
-							<li>Use a Dictionary to dynamically fill a table with text</li>
-							<li>Create Sticky Section Headers based off data in a Dictionary</li>
-						</ul>
-						<p class="tools">Tools: <a href="https://developer.apple.com/xcode/" target="_blank">Xcode 7</a>, <a href="https://developer.apple.com/swift/" target="_blank">Swift 2.0</a>, <a href="https://developer.apple.com/library/ios/navigation/#section=Frameworks&amp;topic=UIKit" target="_blank">UIKit</a></p>
-					</div>
-				</div>
-			</article>
-			<article class="row small">
-				<div class="twelve columns">
-					<h2>Project 12 - Add New Item</h2>
-					<span class="date">August 18, 2015</span>
-					<div class="demo">
-						<a href="images/2015-08-21-add-new-item.gif" data-size="428x738" data-index="28" data-title="Project 12 - Add New Item">
-							<img src="images/2015-08-21-add-new-item.gif" alt="">
-						</a>
-					</div>
-					<div class="project-description">
-						<p>I learned how to:</p>
-						<ul>
-							<li>Create a Model to interact with View Controllers</li>
-							<li>Add data to the Model</li>
-							<li>Update the Table View when the View loads</li>
-							<li>Dismiss the View from the Keyboard Done key</li>
-							<li>Segue to new Views from a Button</li>
-						</ul>
-						<p class="tools">Tools: <a href="https://developer.apple.com/xcode/" target="_blank">Xcode 7</a>, <a href="https://developer.apple.com/swift/" target="_blank">Swift 2.0</a>, <a href="https://developer.apple.com/library/ios/navigation/#section=Frameworks&amp;topic=UIKit" target="_blank">UIKit</a></p>
-					</div>
-				</div>
-			</article>
-			<article class="row small">
-				<div class="twelve columns">
-					<h2>Project 11 - Deleting and Rearranging</h2>
-					<span class="date">August 18, 2015</span>
-					<div class="demo">
-						<a href="images/2015-08-19-delete-and-rearrange.gif" data-size="428x738" data-index="29" data-title="Project 11 - Deleting and Rearranging">
-							<img src="images/2015-08-19-delete-and-rearrange.gif" alt="">
-						</a>
-					</div>
-					<div class="project-description">
-						<p>I learned how to:</p>
-						<ul>
-							<li>Remove data from Data Source</li>
-							<li>Delete data from Table Row</li>
-							<li>Animate the item deletion</li>
-							<li>Handle rearranging Table Rows</li>
-							<li>Enable swipe to delete Table Row</li>
-						</ul>
-						<p class="tools">Tools: <a href="https://developer.apple.com/xcode/" target="_blank">Xcode 7</a>, <a href="https://developer.apple.com/swift/" target="_blank">Swift 2.0</a>, <a href="https://developer.apple.com/library/ios/navigation/#section=Frameworks&amp;topic=UIKit" target="_blank">UIKit</a></p>
-					</div>
-				</div>
-			</article>
-			<article class="row small">
-				<div class="twelve columns">
-					<h2>Project 10 - Pull To Refresh Table View</h2>
-					<span class="date">August 18, 2015</span>
-					<div class="demo">
-						<a href="images/2015-08-18-pull-to-refresh.gif" data-size="428x738" data-index="30" data-title="Project 10 - Pull To Refresh Table View">
-							<img src="images/2015-08-18-pull-to-refresh.gif" alt="">
-						</a>
-					</div>
-					<div class="project-description">
-						<p>I learned how to:</p>
-						<ul>
-							<li>Build a custom Table View Controller</li>
-							<li>Create custom Refresh Control</li>
-							<li>Stop refresh animation when data finishes updating</li>
-							<li>Update the table with refreshed local data</li>
-						</ul>
-						<p class="tools">Tools: <a href="https://developer.apple.com/xcode/" target="_blank">Xcode 7</a>, <a href="https://developer.apple.com/swift/" target="_blank">Swift 2.0</a>, <a href="https://developer.apple.com/library/ios/navigation/#section=Frameworks&amp;topic=UIKit" target="_blank">UIKit</a></p>
-					</div>
-				</div>
-			</article>
-			<article class="row small">
-				<div class="twelve columns">
-					<h2>Project 9 - Add Photo From Camera Roll</h2>
-					<span class="date">August 17, 2015</span>
-					<div class="demo">
-						<a href="images/2015-08-17-Add-Photo-From-Camera-Roll.gif" data-size="428x738" data-index="31" data-title="Project 9 - Add Photo From Camera Roll">
-							<img src="images/2015-08-17-Add-Photo-From-Camera-Roll.gif" alt="">
-						</a>
-					</div>
-					<div class="project-description">
-						<p>I learned how to:</p>
-						<ul>
-							<li>Access the Camera Roll from within the App</li>
-							<li>Create Image Picker Controller</li>
-							<li>Handle a selected image in the Camera Roll</li>
-							<li>Control how the image is displayed to prevent stretching</li>
-						</ul>
-						<p class="tools">Tools: <a href="https://developer.apple.com/xcode/" target="_blank">Xcode 7</a>, <a href="https://developer.apple.com/swift/" target="_blank">Swift 2.0</a>, <a href="https://developer.apple.com/library/ios/navigation/#section=Frameworks&amp;topic=UIKit" target="_blank">UIKit</a></p>
-					</div>
-				</div>
-			</article>
-			<article class="row small">
-				<div class="twelve columns">
-					<h2>Project 8 - Swipe to Dismiss Keyboard</h2>
-					<span class="date">August 15, 2015</span>
-					<div class="demo">
-						<a href="images/2015-08-16-swipe-to-dismiss-keyboard.gif" data-size="428x738" data-index="32" data-title="Project 8 - Swipe to Dismiss Keyboard">
-							<img src="images/2015-08-16-swipe-to-dismiss-keyboard.gif" alt="">
-						</a>
-					</div>
-					<div class="project-description">
-						<p>I learned how to:</p>
-						<ul>
-							<li>Work with Gestures</li>
-							<li>Create Custom Navigation Bars</li>
-							<li>Customize the way Back Buttons are displayed</li>
-							<li>Auto-launch the Keyboard when the View loads</li>
-						</ul>
-						<p class="tools">Tools: <a href="https://developer.apple.com/xcode/" target="_blank">Xcode 7</a>, <a href="https://developer.apple.com/swift/" target="_blank">Swift 2.0</a>, <a href="https://developer.apple.com/library/ios/navigation/#section=Frameworks&amp;topic=UIKit" target="_blank">UIKit</a></p>
-					</div>
-				</div>
-			</article>
-			<article class="row small">
-				<div class="twelve columns">
-					<h2>Project 7 - Passing Data to Another View</h2>
-					<span class="date">August 15, 2015</span>
-					<div class="demo">
-						<a href="images/2015-08-15-pass-data-to-other-views.gif" data-size="428x721" data-index="33" data-title="Project 7 - Passing Data to Another View">
-							<img src="images/2015-08-15-pass-data-to-other-views.gif" alt="">
-						</a>
-					</div>
-					<div class="project-description">
-						<p>I learned how to:</p>
-						<ul>
-							<li>Store data in memory before changing views</li>
-							<li>Send stored data from one view to the other</li>
-						</ul>
-						<p class="tools">Tools: <a href="https://developer.apple.com/xcode/" target="_blank">Xcode 7</a>, <a href="https://developer.apple.com/swift/" target="_blank">Swift 2.0</a>, <a href="https://developer.apple.com/library/ios/navigation/#section=Frameworks&amp;topic=UIKit" target="_blank">UIKit</a></p>
-					</div>
-				</div>
-			</article>
-			<article class="row small">
-				<div class="twelve columns">
-					<h2>Project 6 - Getting Current Date and Time</h2>
-					<span class="date">August 13, 2015</span>
-					<div class="demo">
-						<a href="images/2015-08-13-current-date-and-time.gif" data-size="428x738" data-index="34" data-title="Project 6 - Getting Current Date and Time">
-							<img src="images/2015-08-13-current-date-and-time.gif" alt="">
-						</a>
-					</div>
-					<div class="project-description">
-						<p>I learned how to:</p>
-						<ul>
-							<li>Work with NSDate and NSDateFormatter</li>
-							<li>Set the current date and time based on the user's iPhone settings</li>
-							<li>Format the date to the user's UTC time</li>
-							<li>Refresh date and time</li>
-						</ul>
-						<p class="tools">Tools: <a href="https://developer.apple.com/xcode/" target="_blank">Xcode 7</a>, <a href="https://developer.apple.com/swift/" target="_blank">Swift 2.0</a>, <a href="https://developer.apple.com/library/ios/navigation/#section=Frameworks&amp;topic=UIKit" target="_blank">UIKit</a></p>
-					</div>
-				</div>
-			</article>
-			<article class="row small">
-				<div class="twelve columns">
-					<h2>Project 5 - Basic Table View</h2>
-					<span class="date">August 13, 2015</span>
-					<div class="demo">
-						<a href="images/2015-08-13-basic-table-view.png" data-size="487x801" data-index="35" data-title="Project 5 - Basic Table View">
-							<img src="images/2015-08-13-basic-table-view.png" alt="">
-						</a>
-					</div>
-					<div class="project-description">
-						<p>I learned how to:</p>
-						<ul>
-							<li>Build Custom Table View Controller</li>
-							<li>Work with Nav Bar Buttons</li>
-							<li>Populate Table Rows with local data</li>
-						</ul>
-						<p class="tools">Tools: <a href="https://developer.apple.com/xcode/" target="_blank">Xcode 7</a>, <a href="https://developer.apple.com/swift/" target="_blank">Swift 2.0</a>, <a href="https://developer.apple.com/library/ios/navigation/#section=Frameworks&amp;topic=UIKit" target="_blank">UIKit</a></p>
-					</div>
-				</div>
-			</article>
-			<article class="row small">
-				<div class="twelve columns">
-					<h2>Project 4 - Tip Calculator</h2>
-					<span class="date">August 10, 2015</span>
-					<div class="demo">
-						<a href="images/2015-08-10-tip-calculator.gif" data-size="428x738" data-index="36" data-title="Project 4 - Tip Calculator">
-							<img src="images/2015-08-10-tip-calculator.gif" alt="">
-						</a>
-					</div>
-					<div class="project-description">
-						<p>I learned how to:</p>
-						<ul>
-							<li>Write an app in MVC pattern</li>
-							<li>Work with Computed Properties</li>
-							<li>Create a toolbar above the keyboard</li>
-							<li>Set min and max values for Slider</li>
-							<li>Convert Strings to Int / Double and vice versa</li>
-							<li>Handle calculations with formulas written in the Model</li>
-							<li>Enable or disable objects based on if the keyboard is open</li>
-							<li>Get values from the UISlider and convert them to Int for use in the Model</li>
-						</ul>
-						<p class="tools">Tools: <a href="https://developer.apple.com/xcode/" target="_blank">Xcode 7</a>, <a href="https://developer.apple.com/swift/" target="_blank">Swift 2.0</a>, <a href="https://developer.apple.com/library/ios/navigation/#section=Frameworks&amp;topic=UIKit" target="_blank">UIKit</a></p>
-					</div>
-				</div>
-			</article>
-			<article class="row small">
-				<div class="twelve columns">
-					<h2>Project 3 - Swift iAd</h2>
-					<span class="date">August 10, 2015</span>
-					<div class="demo">
-						<a href="images/2015-08-10-swift-iAd.gif" data-size="428x738" data-index="37" data-title="Project 3 - Swift iAd">
-							<img src="images/2015-08-10-swift-iAd.gif" alt="">
-						</a>
-					</div>
-					<div class="project-description">
-						<p>I learned how to:</p>
-						<ul>
-							<li>Build an iAd Banner</li>
-							<li>Work with Ad Banner View</li>
-							<li>Handle ads that don't load</li>
-							<li>Use Constraints to pin iAd Banners at the bottom for portrait and landscape views</li>
-						</ul>
-						<p class="tools">Tools: <a href="https://developer.apple.com/xcode/" target="_blank">Xcode 7</a>, <a href="https://developer.apple.com/swift/" target="_blank">Swift 2.0</a>, <a href="https://developer.apple.com/library/ios/navigation/#section=Frameworks&amp;topic=UIKit" target="_blank">UIKit</a>, <a href="https://developer.apple.com/library/ios/navigation/#section=Frameworks&amp;topic=iAd" target="_blank">iAd</a></p>
-					</div>
-				</div>
-			</article>
-			<article class="row small">
-				<div class="twelve columns">
-					<h2>Project 2 - Tap or Hold Counter</h2>
-					<span class="date">August 5, 2015</span>
-					<div class="demo">
-						<a href="images/2015-08-05-tap-or-hold-counter.gif" data-size="428x738" data-index="38" data-title="Project 2 - Tap or Hold Counter">
-							<img src="images/2015-08-05-tap-or-hold-counter.gif" alt="">
-						</a>
-					</div>
-					<div class="project-description">
-						<p>I learned how to:</p>
-						<ul>
-							<li>Use and detect Long Press Gestures</li>
-							<li>Work with multiple actions on one button</li>
-						</ul>
-						<p class="tools">Tools: <a href="https://developer.apple.com/xcode/" target="_blank">Xcode 7</a>, <a href="https://developer.apple.com/swift/" target="_blank">Swift 2.0</a>, <a href="https://developer.apple.com/library/ios/navigation/#section=Frameworks&amp;topic=UIKit" target="_blank">UIKit</a></p>
-					</div>
-				</div>
-			</article>
-			<article class="row small">
-				<div class="twelve columns">
-					<h2>Project 1 - Tap Counter</h2>
-					<span class="date">August 4, 2015</span>
-					<div class="demo">
-						<a href="images/2015-08-04-tap-counter.gif" data-size="428x738" data-index="39" data-title="Project 1 - Tap Counter">
-							<img src="images/2015-08-04-tap-counter.gif" alt="">
-						</a>
-					</div>
-					<div class="project-description">
-						<p>I learned how to:</p>
-						<ul>
-							<li>Build an Interface with Labels and Buttons</li>
-							<li>Use functions with buttons</li>
-							<li>Use NSNumberFormatter</li>
-							<li>Unwrapping Optionals</li>
-							<li>Build custom Navigation Bar</li>
-						</ul>
-						<p class="tools">Tools: <a href="https://developer.apple.com/xcode/" target="_blank">Xcode 7</a>, <a href="https://developer.apple.com/swift/" target="_blank">Swift 2.0</a>, <a href="https://developer.apple.com/library/ios/navigation/#section=Frameworks&amp;topic=UIKit" target="_blank">UIKit</a></p>
-					</div>
-				</div>
-			</article>
-		</div>
-	</div>
+<nav class="mobile-nav">
+<ul>
+<li><a class="active" href="#">Code</a></li>
+<li><a href="graphics.html">Graphics</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+</nav>
+<div class="intro">
+<a id="mobile-menu-btn" href="#">Menu</a>
+<nav class="navbar">
+<div class="container">
+<ul>
+<li><a class="active" href="#">Code</a></li>
+<li><a href="graphics.html">Graphics</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+</div>
+</nav>
+<div class="hero">
+<div class="container">
+<div class="hero-image">
+<svg viewBox="0 0 220 194" xmlns="http://www.w3.org/2000/svg"><path d="M134.993-.114C228.068 60.266 199.61 136.2 199.61 136.2s10.037 11.435 15.056 25.615c5.018 14.18 4.963 31.562 4.05 32.02-.912.457-12.677-19.67-33.25-19.67s-31.025 19.67-67.525 19.67C35.758 193.835.115 126.25.115 126.25s36.158 25.96 74.027 25.044c37.87-.915 48.363-11.893 48.363-11.893s-16.932-14.204-46.08-42.77c-29.15-28.563-56.576-67.926-56.576-67.926s43.94 34.914 58.034 45.184c14.095 10.27 28.19 19.578 28.19 19.578s-13.65-14.763-23.26-26.64C73.2 54.953 48.59 19.1 48.59 19.1s37.744 34.164 54.916 47.73c17.172 13.565 50.022 36.436 50.022 36.436S173.318 57.98 134.993-.114z" fill="#FF492B" fill-rule="evenodd"/></svg>
+</div>
+<h1>100 Days of Swif<span>t</span></h1>
+<p class="subtitle">I started learning swift and kept going for 100 days. Each day, I tried to build something from what I learned. Most projects took a few days to complete. Below is my progression from day one to a hundred in the form of completed projects. A total of 40 projects.</p>
+<p class="read-more">Read more about this on&nbsp;<a href="https://medium.com/@samvlu/100-days-of-swift-736d45a19b63#.ujf6i9mpo" target="_blank">Medium</a></p>
+</div>
+</div>
+<a href="#projects" id="arrow">
+<div class="arrow">
+<svg viewBox="0 0 34 18" xmlns="http://www.w3.org/2000/svg"><path d="M16.75 17L0 2.72 3.19 0l13.56 11.56L30.31 0l3.19 2.72L16.75 17z" fill="#FF492B" fill-rule="evenodd"/></svg>
+</div>
+</a>
+</div>
 
-	<!-- ——————————————————————— Footer ——————————————————————— -->
-	<footer>
-		<hr>
-		<div class="container">
-			<div class="row">
-				<div class="twelve columns"></div>
-				<ul>
-					<li><a href="#">code</a></li>
-					<li><a href="graphics.html">graphics</a></li>
-               <li><a href="tutorials.html">tutorials</a></li>
-					<li><a href="about.html">about</a></li>
-					<li><a href="contact.html">contact</a></li>
-				</ul>
-				<span>Copyright &copy; 2016 Sam Lu</span>
-			</div>
-		</div>
-	</footer>
+<div class="projects" id="projects">
+<div class="container">
+<article class="row small">
+<div class="twelve columns">
+<h2>Project 40 - Stretchy Header</h2>
+<span class="date">November 12, 2015</span>
+<div class="demo">
+<a href="images/2015-11-12-nest-stretchy-header.gif" data-size="428x738" data-index="0" data-title="Project 40 - Stretchy Header">
+<img src="images/2015-11-12-nest-stretchy-header.gif" alt="">
+</a>
+</div>
+<div class="project-description">
+<p>I learned how to:</p>
+<ul>
+<li>Build custom transparent navigation bar</li>
+<li>Implement a Collection View in a Table View Controller</li>
+<li>Create a stretchy header based of the user's pull</li>
+</ul>
+<p class="tools">Tools: <a href="https://developer.apple.com/xcode/" target="_blank">Xcode 7</a>, <a href="https://developer.apple.com/swift/" target="_blank">Swift 2.1</a>, <a href="https://developer.apple.com/library/ios/navigation/#section=Frameworks&amp;topic=UIKit" target="_blank">UIKit</a>, <a href="https://www.sketchapp.com" target="_blank">Sketch</a></p>
+</div>
+</div>
+</article>
+<article class="row small">
+<div class="twelve columns">
+<h2>Project 39 - Embedded Collection View</h2>
+<span class="date">November 11, 2015</span>
+<div class="demo">
+<a href="images/2015-11-11-nest-embedded-collection-view.gif" data-size="428x738" data-index="1" data-title="Project 39 - Embedded Collection View">
+<img src="images/2015-11-11-nest-embedded-collection-view.gif" alt="">
+</a>
+</div>
+<div class="project-description">
+<p>I learned how to:</p>
+<ul>
+<li>Build custom transparent navigation bar</li>
+<li>Implement a Collection View in a Table View Controller</li>
+<li>Populate embedded Collection View with data from a dictionary</li>
+</ul>
+<p class="tools">Tools: <a href="https://developer.apple.com/xcode/" target="_blank">Xcode 7</a>, <a href="https://developer.apple.com/swift/" target="_blank">Swift 2.1</a>, <a href="https://developer.apple.com/library/ios/navigation/#section=Frameworks&amp;topic=UIKit" target="_blank">UIKit</a>, <a href="https://www.sketchapp.com" target="_blank">Sketch</a></p>
+</div>
+</div>
+</article>
+<article class="row small">
+<div class="twelve columns">
+<h2>Project 38 - Interactive Transitions</h2>
+<span class="date">November 9, 2015</span>
+<div class="demo">
+<a href="images/2015-11-09-custom-interactive-transitions.gif" data-size="428x738" data-index="2" data-title="Project 38 - Interactive Transitions">
+<img src="images/2015-11-09-custom-interactive-transitions.gif" alt="">
+</a>
+</div>
+<div class="project-description">
+<p>I learned how to:</p>
+<ul>
+<li>Implement Percent Driven Interactive Transition with a Custom Transition</li>
+<li>Use Edge Pan Gesture to trigger Interactive Transition</li>
+</ul>
+<p class="tools">Tools: <a href="https://developer.apple.com/xcode/" target="_blank">Xcode 7</a>, <a href="https://developer.apple.com/swift/" target="_blank">Swift 2.1</a>, <a href="https://developer.apple.com/library/ios/navigation/#section=Frameworks&amp;topic=UIKit" target="_blank">UIKit</a>, <a href="https://www.sketchapp.com" target="_blank">Sketch</a></p>
+<p class="meta">&#42; Artwork by <a href="http://www.zestydoesthings.com" target="_blank">Zesty Does Things</a></p>
+</div>
+</div>
+</article>
+<article class="row small">
+<div class="twelve columns">
+<h2>Project 37 - Custom Transitions</h2>
+<span class="date">November 6, 2015</span>
+<div class="demo">
+<a href="images/2015-11-05-pokemon-custom-transitions.gif" data-size="428x738" data-index="3" data-title="Project 37 - Custom Transitions">
+<img src="images/2015-11-05-pokemon-custom-transitions.gif" alt="">
+</a>
+</div>
+<div class="project-description">
+<p>I learned how to:</p>
+<ul>
+<li>Create custom transitions with Apple's Transition API</li>
+<li>Write protocols to pass data between views</li>
+<li>Build a Navigation Controller Delegate to use custom transitions</li>
+<li>Use custom transitions with a Collection View</li>
+<li>Instantiate View Controllers programmatically</li>
+</ul>
+<p class="tools">Tools: <a href="https://developer.apple.com/xcode/" target="_blank">Xcode 7</a>, <a href="https://developer.apple.com/swift/" target="_blank">Swift 2.1</a>, <a href="https://developer.apple.com/library/ios/navigation/#section=Frameworks&amp;topic=UIKit" target="_blank">UIKit</a>, <a href="https://www.sketchapp.com" target="_blank">Sketch</a></p>
+<p class="meta">&#42; Artwork by <a href="http://www.zestydoesthings.com" target="_blank">Zesty Does Things</a></p>
+</div>
+</div>
+</article>
+<article class="row small">
+<div class="twelve columns">
+<h2>Project 36 - Core Animation &amp; Masks 2</h2>
+<span class="date">October 29, 2015</span>
+<div class="demo">
+<a href="images/2015-10-27_twitter_launch_animation.gif" data-size="430x740" data-index="4" data-title="Project 36 - Core Animation &amp; Masks 2">
+<img src="images/2015-10-27_twitter_launch_animation.gif" alt="">
+</a>
+</div>
+<div class="project-description">
+<p>I learned how to:</p>
+<ul>
+<li>Create complex animations with Core Animation</li>
+<li>Build and use masks with Core Animation</li>
+<li>Build efficient hierarchy for multiple animations</li>
+<li>Animate the status bar with a fade in</li>
+</ul>
+<p class="tools">Tools: <a href="https://developer.apple.com/xcode/" target="_blank">Xcode 7</a>, <a href="https://developer.apple.com/swift/" target="_blank">Swift 2.1</a>, <a href="https://developer.apple.com/library/ios/navigation/#section=Frameworks&amp;topic=UIKit" target="_blank">UIKit</a>, <a href="https://www.sketchapp.com" target="_blank">Sketch</a></p>
+<p class="meta">&#42; This is a recreation of <a href="https://itunes.apple.com/us/app/twitter/id333903271?mt=8" target="_blank">Twitter's iOS App Launch Screen</a></p>
+</div>
+</div>
+</article>
+<article class="row small">
+<div class="twelve columns">
+<h2>Project 35 - Core Animation &amp; Masks 1</h2>
+<span class="date">October 27, 2015</span>
+<div class="demo">
+<a href="images/2015-10-29-google-mic-animations.gif" data-size="430x740" data-index="5" data-title="Project 35 - Core Animation &amp; Masks 1">
+<img src="images/2015-10-29-google-mic-animations.gif" alt="">
+</a>
+</div>
+<div class="project-description">
+<p>I learned how to:</p>
+<ul>
+<li>Use Custom Fonts</li>
+<li>Create complex animations with Core &amp; Spring Animation</li>
+<li>Build and use masks with Core Animation</li>
+<li>Build efficient hierarchy for multiple animations</li>
+<li>Layer animations</li>
+</ul>
+<p class="tools">Tools: <a href="https://developer.apple.com/xcode/" target="_blank">Xcode 7</a>, <a href="https://developer.apple.com/swift/" target="_blank">Swift 2.1</a>, <a href="https://developer.apple.com/library/ios/navigation/#section=Frameworks&amp;topic=UIKit" target="_blank">UIKit</a>, <a href="https://www.sketchapp.com" target="_blank">Sketch</a></p>
+<p class="meta">&#42; This is a recreation of <a href="https://itunes.apple.com/us/app/google-app-search-made-just/id284815942?mt=8" target="_blank">Google's iOS App</a> Mic Animation</p>
+</div>
+</div>
+</article>
+<article class="row small">
+<div class="twelve columns">
+<h2>Project 34 - Spring Animations</h2>
+<span class="date">October 24, 2015</span>
+<div class="demo">
+<a href="images/2015-10-24-spring-animations.gif" data-size="428x740" data-index="6" data-title="Project 34 - Spring Animations">
+<img src="images/2015-10-24-spring-animations.gif" alt="">
+</a>
+</div>
+<div class="project-description">
+<p>I learned how to:</p>
+<ul>
+<li>Use multiple Spring Animations along with Autolayout</li>
+<li>Create seamless animation from launch screen to view controller</li>
+</ul>
+<p class="tools">Tools: <a href="https://developer.apple.com/xcode/" target="_blank">Xcode 7</a>, <a href="https://developer.apple.com/swift/" target="_blank">Swift 2.1</a>, <a href="https://developer.apple.com/library/ios/navigation/#section=Frameworks&amp;topic=UIKit" target="_blank">UIKit</a>, <a href="https://www.sketchapp.com" target="_blank">Sketch</a></p>
+<p class="meta">&#42; This is a recreation of <a href="https://itunes.apple.com/us/app/google-app-search-made-just/id284815942?mt=8" target="_blank">Google's iOS App</a> Launch Screen Animation</p>
+</div>
+</div>
+</article>
+<article class="row small">
+<div class="twelve columns">
+<h2>Project 33 - Custom Swipe Transitions</h2>
+<span class="date">October 22, 2015</span>
+<div class="demo">
+<a href="images/2015-10-22-custom-transitions-with-swipe-gestures.gif" data-size="428x738" data-index="7" data-title="Project 33 - Custom Swipe Transitions">
+<img src="images/2015-10-22-custom-transitions-with-swipe-gestures.gif" alt="">
+</a>
+</div>
+<div class="project-description">
+<p>I learned how to:</p>
+<ul>
+<li>Perform Custom Segues with Swipe Gesture Recognizers</li>
+<li>Unwind Segues</li>
+<li>Animate Custom View Transitions</li>
+<li>Implement Custom Segues Progammatically</li>
+</ul>
+<p class="tools">Tools: <a href="https://developer.apple.com/xcode/" target="_blank">Xcode 7</a>, <a href="https://developer.apple.com/swift/" target="_blank">Swift 2.1</a>, <a href="https://developer.apple.com/library/ios/navigation/#section=Frameworks&amp;topic=UIKit" target="_blank">UIKit</a></p>
+</div>
+</div>
+</article>
+<article class="row small">
+<div class="twelve columns">
+<h2>Project 32 - Basic Animation</h2>
+<span class="date">October 20, 2015</span>
+<div class="demo">
+<a href="images/2015-10-20-core-animation-basics.gif" data-size="428x738" data-index="8" data-title="Project 32 - Basic Animation">
+<img src="images/2015-10-20-core-animation-basics.gif" alt="">
+</a>
+</div>
+<div class="project-description">
+<p>I learned how to:</p>
+<ul>
+<li>Implement ImagesViews programmatically</li>
+<li>Create UIView Animations</li>
+</ul>
+<p class="tools">Tools: <a href="https://developer.apple.com/xcode/" target="_blank">Xcode 7</a>, <a href="https://developer.apple.com/swift/" target="_blank">Swift 2.1</a>, <a href="https://developer.apple.com/library/ios/navigation/#section=Frameworks&amp;topic=UIKit" target="_blank">UIKit</a>, <a href="https://www.sketchapp.com" target="_blank">Sketch</a></p>
+</div>
+</div>
+</article>
+<article class="row small">
+<div class="twelve columns">
+<h2>Project 31 - Custom Search Results</h2>
+<span class="date">October 12, 2015</span>
+<div class="demo">
+<a href="images/2015-10-12-custom-search-results.gif" data-size="428x738" data-index="9" data-title="Project 31 - Custom Search Results">
+<img src="images/2015-10-12-custom-search-results.gif" alt="">
+</a>
+</div>
+<div class="project-description">
+<p>I learned how to:</p>
+<ul>
+<li>create custom Search Bar</li>
+<li>build custom Search Results View</li>
+<li>overlay Search Results over current content</li>
+<li>create and dismiss Blur View</li>
+<li>implement Search Controller</li>
+<li>search and retrieve data from a dictionary</li>
+</ul>
+<p class="tools">Tools: <a href="https://developer.apple.com/xcode/" target="_blank">Xcode 7</a>, <a href="https://developer.apple.com/swift/" target="_blank">Swift 2.1</a>, <a href="https://developer.apple.com/library/ios/navigation/#section=Frameworks&amp;topic=UIKit" target="_blank">UIKit</a></p>
+<p class="meta">&#42; Design inspired by <a href="https://itunes.apple.com/us/app/itunes-movie-trailers/id471966214?mt=8" target="_blank">Apple's iOS Trailers App</a></p>
+</div>
+</div>
+</article>
+<article class="row small">
+<div class="twelve columns">
+<h2>Project 30 - Segmented Control Views</h2>
+<span class="date">October 1, 2015</span>
+<div class="demo">
+<a href="images/2015-10-01-segmented-control.gif" data-size="428x738" data-index="10" data-title="Project 30 - Segmented Control Views">
+<img src="images/2015-10-01-segmented-control.gif" alt="">
+</a>
+</div>
+<div class="project-description">
+<p>I learned how to:</p>
+<ul>
+<li>Use Segmented Control to Toggle Views</li>
+<li>Customize Navigation Bar with Segmented Control</li>
+<li>Work with Segmented Control and Collection &amp; Table Views</li>
+</ul>
+<p class="tools">Tools: <a href="https://developer.apple.com/xcode/" target="_blank">Xcode 7</a>, <a href="https://developer.apple.com/swift/" target="_blank">Swift 2.1</a>, <a href="https://developer.apple.com/library/ios/navigation/#section=Frameworks&amp;topic=UIKit" target="_blank">UIKit</a></p>
+<p class="meta">&#42; Design inspired by <a href="https://itunes.apple.com/us/app/itunes-movie-trailers/id471966214?mt=8" target="_blank">Apple's iOS Trailers App</a></p>
+</div>
+</div>
+</article>
+<article class="row small">
+<div class="twelve columns">
+<h2>Project 29 - Mutiple Collection Views</h2>
+<span class="date">October 1, 2015</span>
+<div class="demo">
+<a href="images/2015-10-01-mutliple-collection-views.gif" data-size="428x738" data-index="11" data-title="Project 29 - Mutiple Collection Views">
+<img src="images/2015-10-01-mutliple-collection-views.gif" alt="">
+</a>
+</div>
+<div class="project-description">
+<p>I learned how to:</p>
+<ul>
+<li>Work with Multiple Collection Views</li>
+<li>Implement Cross-Directional Scroll Views</li>
+<li>Use Local Data Model for Multiple Collection Views</li>
+<li>Customize Collection View Cells</li>
+</ul>
+<p class="tools">Tools: <a href="https://developer.apple.com/xcode/" target="_blank">Xcode 7</a>, <a href="https://developer.apple.com/swift/" target="_blank">Swift 2.1</a>, <a href="https://developer.apple.com/library/ios/navigation/#section=Frameworks&amp;topic=UIKit" target="_blank">UIKit</a></p>
+<p class="meta">&#42; Design inspired by <a href="https://itunes.apple.com/us/app/itunes-movie-trailers/id471966214?mt=8" target="_blank">Apple's iOS Trailers App</a></p>
+</div>
+</div>
+</article>
+<article class="row small">
+<div class="twelve columns">
+<h2>Project 28 - Image Carousel</h2>
+<span class="date">September 30, 2015</span>
+<div class="demo">
+<a href="images/2015-09-30-image-carousel.gif" data-size="428x738" data-index="12" data-title="Project 28 - Image Carousel">
+<img src="images/2015-09-30-image-carousel.gif" alt="">
+</a>
+</div>
+<div class="project-description">
+<p>I learned how to:</p>
+<ul>
+<li>Use UI Collection View for Page Scrolling</li>
+<li>Populate Collection View with local data</li>
+<li>Customize Collection View Cell</li>
+<li>Implement 2 Different Views in a Table View</li>
+</ul>
+<p class="tools">Tools: <a href="https://developer.apple.com/xcode/" target="_blank">Xcode 7</a>, <a href="https://developer.apple.com/swift/" target="_blank">Swift 2.1</a>, <a href="https://developer.apple.com/library/ios/navigation/#section=Frameworks&amp;topic=UIKit" target="_blank">UIKit</a></p>
+<p class="meta">&#42; Design inspired by <a href="https://itunes.apple.com/us/app/itunes-movie-trailers/id471966214?mt=8" target="_blank">Apple's iOS Trailers App</a></p>
+</div>
+</div>
+</article>
+<article class="row small">
+<div class="twelve columns">
+<h2>Project 27 - Search Bar in Table View</h2>
+<span class="date">September 28, 2015</span>
+<div class="demo">
+<a href="images/2015-09-28-search.gif" data-size="428x738" data-index="13" data-title="Project 27 - Search Bar in Table View">
+<img src="images/2015-09-28-search.gif" alt="">
+</a>
+</div>
+<div class="project-description">
+<p>I learned how to:</p>
+<ul>
+<li>Use UISearchController with a Table View</li>
+<li>Display Search Results</li>
+</ul>
+<p class="tools">Tools: <a href="https://developer.apple.com/xcode/" target="_blank">Xcode 7</a>, <a href="https://developer.apple.com/swift/" target="_blank">Swift 2.1</a>, <a href="https://developer.apple.com/library/ios/navigation/#section=Frameworks&amp;topic=UIKit" target="_blank">UIKit</a></p>
+</div>
+</div>
+</article>
+<article class="row small">
+<div class="twelve columns">
+<h2>Project 26 - Action Sheet</h2>
+<span class="date">September 26, 2015</span>
+<div class="demo">
+<a href="images/2015-09-26-action-sheet3.gif" data-size="430x740" data-index="14" data-title="Project 26 - Action Sheet">
+<img src="images/2015-09-26-action-sheet3.gif" alt="">
+</a>
+</div>
+<div class="project-description">
+<p>I learned how to:</p>
+<ul>
+<li>Work with UIAlertController</li>
+<li>Create and add Actions to Alert Controller</li>
+<li>Build Action Handlers</li>
+</ul>
+<p class="tools">Tools: <a href="https://developer.apple.com/xcode/" target="_blank">Xcode 7</a>, <a href="https://developer.apple.com/swift/" target="_blank">Swift 2.1</a>, <a href="https://developer.apple.com/library/ios/navigation/#section=Frameworks&amp;topic=UIKit" target="_blank">UIKit</a></p>
+</div>
+</div>
+</article>
+<article class="row small">
+<div class="twelve columns">
+<h2>Project 25 - Scroll Views</h2>
+<span class="date">September 25, 2015</span>
+<div class="demo">
+<a href="images/2015-09-25-custom-view.gif" data-size="428x738" data-index="15" data-title="Project 25 - Scroll Views">
+<img src="images/2015-09-25-custom-view.gif" alt="">
+</a>
+</div>
+<div class="project-description">
+<p>I learned how to:</p>
+<ul>
+<li>Implement a Scroll View that expands if content is off screen</li>
+<li>Use Dynamic Data with Collection View and Scroll View</li>
+<li>Build custom Navigation Bar</li>
+<li>Customize Back Button</li>
+<li>Retrieve Data from Local Database</li>
+</ul>
+<p class="tools">Tools: <a href="https://developer.apple.com/xcode/" target="_blank">Xcode 7</a>, <a href="https://developer.apple.com/swift/" target="_blank">Swift 2.1</a>, <a href="https://developer.apple.com/library/ios/navigation/#section=Frameworks&amp;topic=UIKit" target="_blank">UIKit</a></p>
+</div>
+</div>
+</article>
+<article class="row small">
+<div class="twelve columns">
+<h2>Project 24 - Custom Collection View</h2>
+<span class="date">September 23, 2015</span>
+<div class="demo">
+<a href="images/2015-09-23-uicollection-view.gif" data-size="428x738" data-index="16" data-title="Project 24 - Custom Collection View">
+<img src="images/2015-09-23-uicollection-view.gif" alt="">
+</a>
+</div>
+<div class="project-description">
+<p>I learned how to:</p>
+<ul>
+<li>Build a custom Collection View</li>
+<li>Load images into the Collection View</li>
+</ul>
+<p class="tools">Tools: <a href="https://developer.apple.com/xcode/" target="_blank">Xcode 7</a>, <a href="https://developer.apple.com/swift/" target="_blank">Swift 2.1</a>, <a href="https://developer.apple.com/library/ios/navigation/#section=Frameworks&amp;topic=UIKit" target="_blank">UIKit</a></p>
+</div>
+</div>
+</article>
+<article class="row small">
+<div class="twelve columns">
+<h2>Project 23 - Change Date And Time</h2>
+<span class="date">September 19, 2015</span>
+<div class="demo">
+<a href="images/2015-09-19-change-date-and-time.gif" data-size="428x738" data-index="17" data-title="Project 23 - Change Date And Time">
+<img src="images/2015-09-19-change-date-and-time.gif" alt="">
+</a>
+</div>
+<div class="project-description">
+<p>I learned how to:</p>
+<ul>
+<li>Pass data to back and forth between 2 views</li>
+<li>Format date and time from UIPickers</li>
+<li>Make UIPickers display previously selected Date and Time</li>
+<li>Get and show today's Date and Time</li>
+</ul>
+<p class="tools">Tools: <a href="https://developer.apple.com/xcode/" target="_blank">Xcode 7</a>, <a href="https://developer.apple.com/swift/" target="_blank">Swift 2.0</a>, <a href="https://developer.apple.com/library/ios/navigation/#section=Frameworks&amp;topic=UIKit" target="_blank">UIKit</a></p>
+</div>
+</div>
+</article>
+<article class="row small">
+<div class="twelve columns">
+<h2>Project 22 - Setting The Date</h2>
+<span class="date">September 16, 2015</span>
+<div class="demo">
+<a href="images/2015-09-16-UIDatePicker.gif" data-size="428x738" data-index="18" data-title="Project 22 - Setting The Date">
+<img src="images/2015-09-16-UIDatePicker.gif" alt="">
+</a>
+</div>
+<div class="project-description">
+<p>I learned how to:</p>
+<ul>
+<li>Use UIDatePicker to get NSDate Information</li>
+<li>Use NSDateFormatter to convert the date to a string</li>
+<li>Set the View Title to the Date</li>
+</ul>
+<p class="tools">Tools: <a href="https://developer.apple.com/xcode/" target="_blank">Xcode 7</a>, <a href="https://developer.apple.com/swift/" target="_blank">Swift 2.0</a>, <a href="https://developer.apple.com/library/ios/navigation/#section=Frameworks&amp;topic=UIKit" target="_blank">UIKit</a></p>
+</div>
+</div>
+</article>
+<article class="row small">
+<div class="twelve columns">
+<h2>Project 21 - Set Location</h2>
+<span class="date">September 16, 2015</span>
+<div class="demo">
+<a href="images/2015-09-16-set-location.gif" data-size="428x738" data-index="19" data-title="Project 21 - Set Location">
+<img src="images/2015-09-16-set-location.gif" alt="">
+</a>
+</div>
+<div class="project-description">
+<p>I learned how to:</p>
+<ul>
+<li>Request permission to use Location Services</li>
+<li>Set the location</li>
+<li>Convert the user's position data (laditude / longitude) to street address style</li>
+<li>Conserve battery with CLLocationManager</li>
+</ul>
+<p class="tools">Tools: <a href="https://developer.apple.com/xcode/" target="_blank">Xcode 7</a>, <a href="https://developer.apple.com/swift/" target="_blank">Swift 2.0</a>, <a href="https://developer.apple.com/library/ios/navigation/#section=Frameworks&amp;topic=UIKit" target="_blank">UIKit</a>, <a href="https://developer.apple.com/library/ios/navigation/#section=Frameworks&amp;topic=CoreLocation" target="_blank">CoreLocation</a></p>
+</div>
+</div>
+</article>
+<article class="row small">
+<div class="twelve columns">
+<h2>Project 20 - Save Date, Location &amp; Photo</h2>
+<span class="date">September 15, 2015</span>
+<div class="demo">
+<a href="images/2015-09-15-saving-date-location-photo-text.gif" data-size="428x738" data-index="20" data-title="Project 20 - Save Date, Location &amp; Photo">
+<img src="images/2015-09-15-saving-date-location-photo-text.gif" alt="">
+</a>
+</div>
+<div class="project-description">
+<p>I learned how to:</p>
+<ul>
+<li>Use Core Location to retrieve Location</li>
+<li>Convert ImageData to Binary for saving to Core Data</li>
+<li>Work with NSDate</li>
+<li>Load Core Data info in Table View</li>
+<li>Sort Table View by Date provided by Core Data</li>
+</ul>
+<p class="tools">Tools: <a href="https://www.sketchapp.com" target="_blank">Sketch</a>, <a href="https://developer.apple.com/xcode/" target="_blank">Xcode 7</a>, <a href="https://developer.apple.com/swift/" target="_blank">Swift 2.0</a>, <a href="https://developer.apple.com/library/ios/navigation/#section=Frameworks&amp;topic=UIKit" target="_blank">UIKit</a>, <a href="https://developer.apple.com/library/ios/navigation/#section=Frameworks&amp;topic=CoreData" target="_blank">CoreData</a>, <a href="https://developer.apple.com/library/ios/navigation/#section=Frameworks&amp;topic=CoreLocation" target="_blank">CoreLocation</a></p>
+</div>
+</div>
+</article>
+<article class="row small">
+<div class="twelve columns">
+<h2>Project 19 - Buttons Above Keyboard</h2>
+<span class="date">September 13, 2015</span>
+<div class="demo">
+<a href="images/2015-09-13-buttons-above-keyboard.gif" data-size="428x738" data-index="21" data-title="Project 19 - Buttons Above Keyboard">
+<img src="images/2015-09-13-buttons-above-keyboard.gif" alt="">
+</a>
+</div>
+<div class="project-description">
+<p>I learned how to:</p>
+<ul>
+<li>Create an Accessory Input View </li>
+<li>Use constraints to align buttons</li>
+<li>Use icons for UIButtons</li>
+</ul>
+<p class="tools">Tools: <a href="https://www.sketchapp.com" target="_blank">Sketch</a>, <a href="https://developer.apple.com/xcode/" target="_blank">Xcode 7</a>, <a href="https://developer.apple.com/swift/" target="_blank">Swift 2.0</a>, <a href="https://developer.apple.com/library/ios/navigation/#section=Frameworks&amp;topic=UIKit" target="_blank">UIKit</a></p>
+</div>
+</div>
+</article>
+<article class="row small">
+<div class="twelve columns">
+<h2>Project 18 - Dynamic Data For Each Cell</h2>
+<span class="date">September 1, 2015</span>
+<div class="demo">
+<a href="images/2015-09-01-contacts-app-2.gif" data-size="428x738" data-index="22" data-title="Project 18 - Dynamic Data For Each Cell">
+<img src="images/2015-09-01-contacts-app-2.gif" alt="">
+</a>
+</div>
+<div class="project-description">
+<p>Part 4 of Contacts App for iOS</p>
+<ul>
+<li>Change the color of the Navigation Bar, Status Bar and Navigation Buttons</li>
+<li>Use Dictionaries to dynamically fill tables with text and images</li>
+<li>Transfer data from the currently selected row to the next View</li>
+</ul>
+<p class="tools">Tools: <a href="https://www.sketchapp.com" target="_blank">Sketch</a>, <a href="https://developer.apple.com/xcode/" target="_blank">Xcode 7</a>, <a href="https://developer.apple.com/swift/" target="_blank">Swift 2.0</a>, <a href="https://developer.apple.com/library/ios/navigation/#section=Frameworks&amp;topic=UIKit" target="_blank">UIKit</a></p>
+</div>
+</div>
+</article>
+<article class="row large">
+<div class="twelve columns">
+<div class="small">
+<h2>Project 17 - The Model and Controllers</h2>
+<span class="date">August 30, 2015</span>
+</div>
+<div class="demo">
+<a href="images/2015-08-30-xcode-code-4-hd.png" data-size="1038x1049" data-index="23" data-title="Project 17 - The Model and Controllers">
+<img src="images/2015-08-30-xcode-code-4.png" alt="">
+</a>
+</div>
+<div class="small">
+<div class="project-description">
+<p>Part 3 of Contacts App for iOS</p>
+<p>I learned how to:</p>
+<ul>
+<li>Store and access data in Dictionaries</li>
+<li>Create Section Headers and Rows in Tables</li>
+<li>Work with multiple View controllers</li>
+</ul>
+<p class="tools">Tools: <a href="https://developer.apple.com/xcode/" target="_blank">Xcode 7</a>, <a href="https://developer.apple.com/swift/" target="_blank">Swift 2.0</a>, <a href="https://developer.apple.com/library/ios/navigation/#section=Frameworks&amp;topic=UIKit" target="_blank">UIKit</a></p>
+</div>
+</div>
+</div>
+</article>
+<article class="row large">
+<div class="twelve columns">
+<div class="small">
+<h2>Project 16 - Building The User Interface</h2>
+<span class="date">August 27, 2015</span>
+</div>
+<div class="demo">
+<a href="images/2015-08-27-xcode-storyboard-8-hd.png" data-size="816x2152" data-index="24" data-title="Project 16 - Building The User Interface">
+<img src="images/2015-08-27-xcode-storyboard-8.png" alt="">
+</a>
+</div>
+<div class="small">
+<div class="project-description">
+<p>Part 2 of Contacts App for iOS</p>
+<p>I learned how to:</p>
+<ul>
+<li>Use Navigation, Table View and View Controllers</li>
+<li>Use Auto Layout for creating Universal Apps</li>
+<li>Connect Views with Segues</li>
+<li>Work with ImageViews, Labels</li>
+<li>Customize Table Sections, Rows, Cells and Separators</li>
+</ul>
+<p class="tools">Tools: <a href="https://developer.apple.com/xcode/" target="_blank">Xcode 7</a></p>
+</div>
+</div>
+</div>
+</article>
+<article class="row large">
+<div class="twelve columns">
+<div class="small">
+<h2>Project 15 - From <a href="https://www.sketchapp.com" target="_blank">Sketch</a> to Xcode</h2>
+<span class="date">August 26, 2015</span>
+</div>
+<div class="demo">
+<a href="images/2015-08-26-contacts-app-showcase-11.png" data-size="924x757" data-index="25" data-title="Project 15 - From Sketch to Xcode">
+<img src="images/2015-08-26-contacts-app-showcase-11.png" alt="">
+</a>
+</div>
+<div class="small">
+<div class="project-description">
+<p>Part 1 of Contacts App for iOS</p>
+<p>I learned how to:</p>
+<ul>
+<li>Design Custom Table Sections and Rows</li>
+<li>Mentally apply Auto Layout</li>
+<li>Design For Retina screens</li>
+<li>Efficiently export assets for Xcode</li>
+</ul>
+<p class="tools">Tools: <a href="https://www.sketchapp.com" target="_blank">Sketch</a></p>
+</div>
+</div>
+</div>
+</article>
+<article class="row small">
+<div class="twelve columns">
+<h2>Project 14 - Jumpbar</h2>
+<span class="date">August 20, 2015</span>
+<div class="demo">
+<a href="images/2015-08-20-jumpbar.gif" data-size="428x738" data-index="26" data-title="Project 14 - Jumpbar">
+<img src="images/2015-08-20-jumpbar.gif" alt="">
+</a>
+</div>
+<div class="project-description">
+<p>I learned how to:</p>
+<ul>
+<li>Sort an Array in alphabetical order</li>
+<li>Create an Indexed Table View</li>
+</ul>
+<p class="tools">Tools: <a href="https://developer.apple.com/xcode/" target="_blank">Xcode 7</a>, <a href="https://developer.apple.com/swift/" target="_blank">Swift 2.0</a>, <a href="https://developer.apple.com/library/ios/navigation/#section=Frameworks&amp;topic=UIKit" target="_blank">UIKit</a></p>
+</div>
+</div>
+</article>
+<article class="row small">
+<div class="twelve columns">
+<h2>Project 13 - Sticky Section Headers</h2>
+<span class="date">August 19, 2015</span>
+<div class="demo">
+<a href="images/2015-08-19-sticky-section-headers.gif" data-size="428x738" data-index="27" data-title="Project 13 - Sticky Section Headers">
+<img src="images/2015-08-19-sticky-section-headers.gif" alt="">
+</a>
+</div>
+<div class="project-description">
+<p>I learned how to:</p>
+<ul>
+<li>Store and access data in a Dictionary</li>
+<li>Use a Dictionary to dynamically fill a table with text</li>
+<li>Create Sticky Section Headers based off data in a Dictionary</li>
+</ul>
+<p class="tools">Tools: <a href="https://developer.apple.com/xcode/" target="_blank">Xcode 7</a>, <a href="https://developer.apple.com/swift/" target="_blank">Swift 2.0</a>, <a href="https://developer.apple.com/library/ios/navigation/#section=Frameworks&amp;topic=UIKit" target="_blank">UIKit</a></p>
+</div>
+</div>
+</article>
+<article class="row small">
+<div class="twelve columns">
+<h2>Project 12 - Add New Item</h2>
+<span class="date">August 18, 2015</span>
+<div class="demo">
+<a href="images/2015-08-21-add-new-item.gif" data-size="428x738" data-index="28" data-title="Project 12 - Add New Item">
+<img src="images/2015-08-21-add-new-item.gif" alt="">
+</a>
+</div>
+<div class="project-description">
+<p>I learned how to:</p>
+<ul>
+<li>Create a Model to interact with View Controllers</li>
+<li>Add data to the Model</li>
+<li>Update the Table View when the View loads</li>
+<li>Dismiss the View from the Keyboard Done key</li>
+<li>Segue to new Views from a Button</li>
+</ul>
+<p class="tools">Tools: <a href="https://developer.apple.com/xcode/" target="_blank">Xcode 7</a>, <a href="https://developer.apple.com/swift/" target="_blank">Swift 2.0</a>, <a href="https://developer.apple.com/library/ios/navigation/#section=Frameworks&amp;topic=UIKit" target="_blank">UIKit</a></p>
+</div>
+</div>
+</article>
+<article class="row small">
+<div class="twelve columns">
+<h2>Project 11 - Deleting and Rearranging</h2>
+<span class="date">August 18, 2015</span>
+<div class="demo">
+<a href="images/2015-08-19-delete-and-rearrange.gif" data-size="428x738" data-index="29" data-title="Project 11 - Deleting and Rearranging">
+<img src="images/2015-08-19-delete-and-rearrange.gif" alt="">
+</a>
+</div>
+<div class="project-description">
+<p>I learned how to:</p>
+<ul>
+<li>Remove data from Data Source</li>
+<li>Delete data from Table Row</li>
+<li>Animate the item deletion</li>
+<li>Handle rearranging Table Rows</li>
+<li>Enable swipe to delete Table Row</li>
+</ul>
+<p class="tools">Tools: <a href="https://developer.apple.com/xcode/" target="_blank">Xcode 7</a>, <a href="https://developer.apple.com/swift/" target="_blank">Swift 2.0</a>, <a href="https://developer.apple.com/library/ios/navigation/#section=Frameworks&amp;topic=UIKit" target="_blank">UIKit</a></p>
+</div>
+</div>
+</article>
+<article class="row small">
+<div class="twelve columns">
+<h2>Project 10 - Pull To Refresh Table View</h2>
+<span class="date">August 18, 2015</span>
+<div class="demo">
+<a href="images/2015-08-18-pull-to-refresh.gif" data-size="428x738" data-index="30" data-title="Project 10 - Pull To Refresh Table View">
+<img src="images/2015-08-18-pull-to-refresh.gif" alt="">
+</a>
+</div>
+<div class="project-description">
+<p>I learned how to:</p>
+<ul>
+<li>Build a custom Table View Controller</li>
+<li>Create custom Refresh Control</li>
+<li>Stop refresh animation when data finishes updating</li>
+<li>Update the table with refreshed local data</li>
+</ul>
+<p class="tools">Tools: <a href="https://developer.apple.com/xcode/" target="_blank">Xcode 7</a>, <a href="https://developer.apple.com/swift/" target="_blank">Swift 2.0</a>, <a href="https://developer.apple.com/library/ios/navigation/#section=Frameworks&amp;topic=UIKit" target="_blank">UIKit</a></p>
+</div>
+</div>
+</article>
+<article class="row small">
+<div class="twelve columns">
+<h2>Project 9 - Add Photo From Camera Roll</h2>
+<span class="date">August 17, 2015</span>
+<div class="demo">
+<a href="images/2015-08-17-Add-Photo-From-Camera-Roll.gif" data-size="428x738" data-index="31" data-title="Project 9 - Add Photo From Camera Roll">
+<img src="images/2015-08-17-Add-Photo-From-Camera-Roll.gif" alt="">
+</a>
+</div>
+<div class="project-description">
+<p>I learned how to:</p>
+<ul>
+<li>Access the Camera Roll from within the App</li>
+<li>Create Image Picker Controller</li>
+<li>Handle a selected image in the Camera Roll</li>
+<li>Control how the image is displayed to prevent stretching</li>
+</ul>
+<p class="tools">Tools: <a href="https://developer.apple.com/xcode/" target="_blank">Xcode 7</a>, <a href="https://developer.apple.com/swift/" target="_blank">Swift 2.0</a>, <a href="https://developer.apple.com/library/ios/navigation/#section=Frameworks&amp;topic=UIKit" target="_blank">UIKit</a></p>
+</div>
+</div>
+</article>
+<article class="row small">
+<div class="twelve columns">
+<h2>Project 8 - Swipe to Dismiss Keyboard</h2>
+<span class="date">August 15, 2015</span>
+<div class="demo">
+<a href="images/2015-08-16-swipe-to-dismiss-keyboard.gif" data-size="428x738" data-index="32" data-title="Project 8 - Swipe to Dismiss Keyboard">
+<img src="images/2015-08-16-swipe-to-dismiss-keyboard.gif" alt="">
+</a>
+</div>
+<div class="project-description">
+<p>I learned how to:</p>
+<ul>
+<li>Work with Gestures</li>
+<li>Create Custom Navigation Bars</li>
+<li>Customize the way Back Buttons are displayed</li>
+<li>Auto-launch the Keyboard when the View loads</li>
+</ul>
+<p class="tools">Tools: <a href="https://developer.apple.com/xcode/" target="_blank">Xcode 7</a>, <a href="https://developer.apple.com/swift/" target="_blank">Swift 2.0</a>, <a href="https://developer.apple.com/library/ios/navigation/#section=Frameworks&amp;topic=UIKit" target="_blank">UIKit</a></p>
+</div>
+</div>
+</article>
+<article class="row small">
+<div class="twelve columns">
+<h2>Project 7 - Passing Data to Another View</h2>
+<span class="date">August 15, 2015</span>
+<div class="demo">
+<a href="images/2015-08-15-pass-data-to-other-views.gif" data-size="428x721" data-index="33" data-title="Project 7 - Passing Data to Another View">
+<img src="images/2015-08-15-pass-data-to-other-views.gif" alt="">
+</a>
+</div>
+<div class="project-description">
+<p>I learned how to:</p>
+<ul>
+<li>Store data in memory before changing views</li>
+<li>Send stored data from one view to the other</li>
+</ul>
+<p class="tools">Tools: <a href="https://developer.apple.com/xcode/" target="_blank">Xcode 7</a>, <a href="https://developer.apple.com/swift/" target="_blank">Swift 2.0</a>, <a href="https://developer.apple.com/library/ios/navigation/#section=Frameworks&amp;topic=UIKit" target="_blank">UIKit</a></p>
+</div>
+</div>
+</article>
+<article class="row small">
+<div class="twelve columns">
+<h2>Project 6 - Getting Current Date and Time</h2>
+<span class="date">August 13, 2015</span>
+<div class="demo">
+<a href="images/2015-08-13-current-date-and-time.gif" data-size="428x738" data-index="34" data-title="Project 6 - Getting Current Date and Time">
+<img src="images/2015-08-13-current-date-and-time.gif" alt="">
+</a>
+</div>
+<div class="project-description">
+<p>I learned how to:</p>
+<ul>
+<li>Work with NSDate and NSDateFormatter</li>
+<li>Set the current date and time based on the user's iPhone settings</li>
+<li>Format the date to the user's UTC time</li>
+<li>Refresh date and time</li>
+</ul>
+<p class="tools">Tools: <a href="https://developer.apple.com/xcode/" target="_blank">Xcode 7</a>, <a href="https://developer.apple.com/swift/" target="_blank">Swift 2.0</a>, <a href="https://developer.apple.com/library/ios/navigation/#section=Frameworks&amp;topic=UIKit" target="_blank">UIKit</a></p>
+</div>
+</div>
+</article>
+<article class="row small">
+<div class="twelve columns">
+<h2>Project 5 - Basic Table View</h2>
+<span class="date">August 13, 2015</span>
+<div class="demo">
+<a href="images/2015-08-13-basic-table-view.png" data-size="487x801" data-index="35" data-title="Project 5 - Basic Table View">
+<img src="images/2015-08-13-basic-table-view.png" alt="">
+</a>
+</div>
+<div class="project-description">
+<p>I learned how to:</p>
+<ul>
+<li>Build Custom Table View Controller</li>
+<li>Work with Nav Bar Buttons</li>
+<li>Populate Table Rows with local data</li>
+</ul>
+<p class="tools">Tools: <a href="https://developer.apple.com/xcode/" target="_blank">Xcode 7</a>, <a href="https://developer.apple.com/swift/" target="_blank">Swift 2.0</a>, <a href="https://developer.apple.com/library/ios/navigation/#section=Frameworks&amp;topic=UIKit" target="_blank">UIKit</a></p>
+</div>
+</div>
+</article>
+<article class="row small">
+<div class="twelve columns">
+<h2>Project 4 - Tip Calculator</h2>
+<span class="date">August 10, 2015</span>
+<div class="demo">
+<a href="images/2015-08-10-tip-calculator.gif" data-size="428x738" data-index="36" data-title="Project 4 - Tip Calculator">
+<img src="images/2015-08-10-tip-calculator.gif" alt="">
+</a>
+</div>
+<div class="project-description">
+<p>I learned how to:</p>
+<ul>
+<li>Write an app in MVC pattern</li>
+<li>Work with Computed Properties</li>
+<li>Create a toolbar above the keyboard</li>
+<li>Set min and max values for Slider</li>
+<li>Convert Strings to Int / Double and vice versa</li>
+<li>Handle calculations with formulas written in the Model</li>
+<li>Enable or disable objects based on if the keyboard is open</li>
+<li>Get values from the UISlider and convert them to Int for use in the Model</li>
+</ul>
+<p class="tools">Tools: <a href="https://developer.apple.com/xcode/" target="_blank">Xcode 7</a>, <a href="https://developer.apple.com/swift/" target="_blank">Swift 2.0</a>, <a href="https://developer.apple.com/library/ios/navigation/#section=Frameworks&amp;topic=UIKit" target="_blank">UIKit</a></p>
+</div>
+</div>
+</article>
+<article class="row small">
+<div class="twelve columns">
+<h2>Project 3 - Swift iAd</h2>
+<span class="date">August 10, 2015</span>
+<div class="demo">
+<a href="images/2015-08-10-swift-iAd.gif" data-size="428x738" data-index="37" data-title="Project 3 - Swift iAd">
+<img src="images/2015-08-10-swift-iAd.gif" alt="">
+</a>
+</div>
+<div class="project-description">
+<p>I learned how to:</p>
+<ul>
+<li>Build an iAd Banner</li>
+<li>Work with Ad Banner View</li>
+<li>Handle ads that don't load</li>
+<li>Use Constraints to pin iAd Banners at the bottom for portrait and landscape views</li>
+</ul>
+<p class="tools">Tools: <a href="https://developer.apple.com/xcode/" target="_blank">Xcode 7</a>, <a href="https://developer.apple.com/swift/" target="_blank">Swift 2.0</a>, <a href="https://developer.apple.com/library/ios/navigation/#section=Frameworks&amp;topic=UIKit" target="_blank">UIKit</a>, <a href="https://developer.apple.com/library/ios/navigation/#section=Frameworks&amp;topic=iAd" target="_blank">iAd</a></p>
+</div>
+</div>
+</article>
+<article class="row small">
+<div class="twelve columns">
+<h2>Project 2 - Tap or Hold Counter</h2>
+<span class="date">August 5, 2015</span>
+<div class="demo">
+<a href="images/2015-08-05-tap-or-hold-counter.gif" data-size="428x738" data-index="38" data-title="Project 2 - Tap or Hold Counter">
+<img src="images/2015-08-05-tap-or-hold-counter.gif" alt="">
+</a>
+</div>
+<div class="project-description">
+<p>I learned how to:</p>
+<ul>
+<li>Use and detect Long Press Gestures</li>
+<li>Work with multiple actions on one button</li>
+</ul>
+<p class="tools">Tools: <a href="https://developer.apple.com/xcode/" target="_blank">Xcode 7</a>, <a href="https://developer.apple.com/swift/" target="_blank">Swift 2.0</a>, <a href="https://developer.apple.com/library/ios/navigation/#section=Frameworks&amp;topic=UIKit" target="_blank">UIKit</a></p>
+</div>
+</div>
+</article>
+<article class="row small">
+<div class="twelve columns">
+<h2>Project 1 - Tap Counter</h2>
+<span class="date">August 4, 2015</span>
+<div class="demo">
+<a href="images/2015-08-04-tap-counter.gif" data-size="428x738" data-index="39" data-title="Project 1 - Tap Counter">
+<img src="images/2015-08-04-tap-counter.gif" alt="">
+</a>
+</div>
+<div class="project-description">
+<p>I learned how to:</p>
+<ul>
+<li>Build an Interface with Labels and Buttons</li>
+<li>Use functions with buttons</li>
+<li>Use NSNumberFormatter</li>
+<li>Unwrapping Optionals</li>
+<li>Build custom Navigation Bar</li>
+</ul>
+<p class="tools">Tools: <a href="https://developer.apple.com/xcode/" target="_blank">Xcode 7</a>, <a href="https://developer.apple.com/swift/" target="_blank">Swift 2.0</a>, <a href="https://developer.apple.com/library/ios/navigation/#section=Frameworks&amp;topic=UIKit" target="_blank">UIKit</a></p>
+</div>
+</div>
+</article>
+</div>
+</div>
 
-	<!-- ——————————————————————— Lightbox ——————————————————————— -->
-	<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
-		<div class="pswp__bg"></div>
-		<div class="pswp__scroll-wrap">
-			<div class="pswp__container">
-			   <div class="pswp__item"></div>
-			   <div class="pswp__item"></div>
-			   <div class="pswp__item"></div>
-			</div>
-			<div class="pswp__ui pswp__ui--hidden">
-			   <div class="pswp__top-bar">
-			       <div class="pswp__counter"></div>
-			       <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
-			       <button class="pswp__button pswp__button--share" title="Share"></button>
-			       <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
-			       <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
-			       <div class="pswp__preloader">
-			           <div class="pswp__preloader__icn">
-			             <div class="pswp__preloader__cut">
-			               <div class="pswp__preloader__donut"></div>
-			             </div>
-			           </div>
-			       </div>
-			   </div>
-			   <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-			       <div class="pswp__share-tooltip"></div>
-			   </div>
-			   <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
-			   </button>
-			   <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
-			   </button>
-			   <div class="pswp__caption">
-			       <div class="pswp__caption__center"></div>
-			   </div>
-			</div>
-		</div>
-	</div>
-	<!-- build:js js/jquery.2.1.3.min.js -->
-	<script src="js/jquery.2.1.3.min.js"></script>
-	<!-- endbuild -->
-	<!-- build:js js/lightbox.js -->
-	<script src="js/photoswipe.min.js"></script>
-	<script src="js/photoswipe-ui-default.js"></script>
-	<!-- endbuild -->
-	<!-- build:js js/code.js -->
-	<script src="js/code.js"></script>
-	<!-- endbuild -->
+<footer>
+<hr>
+<div class="container">
+<div class="row">
+<div class="twelve columns"></div>
+<ul>
+<li><a href="#">code</a></li>
+<li><a href="graphics.html">graphics</a></li>
+<li><a href="about.html">about</a></li>
+<li><a href="contact.html">contact</a></li>
+</ul>
+<span>Copyright &copy; 2016 Sam Lu</span>
+</div>
+</div>
+</footer>
 
-	<!-- Google Analytics -->
-	<script>
-	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+<div class="pswp__bg"></div>
+<div class="pswp__scroll-wrap">
+<div class="pswp__container">
+<div class="pswp__item"></div>
+<div class="pswp__item"></div>
+<div class="pswp__item"></div>
+</div>
+<div class="pswp__ui pswp__ui--hidden">
+<div class="pswp__top-bar">
+<div class="pswp__counter"></div>
+<button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+<button class="pswp__button pswp__button--share" title="Share"></button>
+<button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+<button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+<div class="pswp__preloader">
+<div class="pswp__preloader__icn">
+<div class="pswp__preloader__cut">
+<div class="pswp__preloader__donut"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+<div class="pswp__share-tooltip"></div>
+</div>
+<button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+</button>
+<button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+</button>
+<div class="pswp__caption">
+<div class="pswp__caption__center"></div>
+</div>
+</div>
+</div>
+</div>
+<script src="js/jquery.2.1.3.min.js"></script>
+<script src="js/lightbox.js"></script>
+<script src="js/code.js"></script>
+
+<script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
 	ga('create', 'UA-9709871-1', 'auto');
-	ga('send', 'pageview');
-	</script>
+	ga('send', 'pageview');</script>
 </body>
 </html>
