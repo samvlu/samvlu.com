@@ -1,1 +1,0 @@
-$(document).ready(function(){$("#mobile-menu-btn").on("click",function(){return $(".mobile-nav").slideToggle(300,"linear"),!1}),$(window).resize(function(){$(window).width()>=642&&$(".mobile-nav").css("display","none")})});
