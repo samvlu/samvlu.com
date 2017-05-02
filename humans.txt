@@ -4,6 +4,6 @@ Hello
 Site Design & Code: Sam Lu
 email: samvlu@icloud.com
 
-Last update: April 20, 2017
+Last update: May 2, 2017
 Languages: HTML, CSS, Sass, Javascript
 Software: Sublime Text
