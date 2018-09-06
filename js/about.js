@@ -1,0 +1,1 @@
+function addScrollEventListener(){window.addEventListener("scroll",scrollDocument)}function scrollDocument(){document.body.scrollTop>50&&(mobileNavMenuCheckbox.checked=!1,window.removeEventListener("scroll",scrollDocument))}var mobileNavMenuCheckbox=document.querySelector("#menu-checkbox");mobileNavMenuCheckbox.addEventListener("click",addScrollEventListener);
