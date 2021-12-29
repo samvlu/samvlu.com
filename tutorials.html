@@ -11,6 +11,15 @@
     <link rel="icon" type="image/png" href="images/favicon.png">
     <script src="js/jquery.3.3.1.min.js"></script>
     <script src="js/tutorials.js"></script>
+    <style>
+        .hero .buy-button span.button.disabled {
+            background: grey;
+            cursor: not-allowed;
+            user-select: none;
+            -moz-user-select: none;
+            -webkit-user-select: none;
+        }
+    </style>
 </head>
 
 <body><input type="checkbox" id="menu-checkbox"> <label for="menu-checkbox" id="menu-label"><span></span> <span></span>
@@ -38,8 +47,7 @@
                 <p class="description">Learn Swift by building cool projects. Gain a solid foundation in Swift, Xcode,
                     Programming Concepts, and iOS Development. 40&nbsp;projects. 160 videos. Over 16 hours of Video.
                     No&nbsp;programming experience required.</p>
-                <div class="buy-button"><a href="https://gumroad.com/l/OVXBp" class="button button-primary">Buy
-                        &#36;59</a></div>
+                <div class="buy-button"><span class="button button-primary disabled">Sold Out</span></div>
                 <p class="updated-for">Updated for Xcode 8.3.2 &amp; Swift 3.1</p>
             </div>
         </div>
